@@ -7,8 +7,8 @@
 
   <article xml:id="syllabus">
     <!--Enter appropriate course title-->
-    <title>Course Title Syllabus</title>
-    <subtitle>Math XXX - Spring/Summer/Fall 20XX</subtitle>
+    <title> Pre-Calculus Syllabus</title>
+    <subtitle>Math 121 - Fall 2025</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
@@ -37,7 +37,7 @@
   <xi:include href="./syllabus/syllabus-student-resources.ptx" />
 
   <!--include course schedule-->
-  <xi:include href="./syllabus/syllabus-calendar.ptx" />
+  <!--xi:include href="./syllabus/syllabus-calendar.ptx" /-->
 
 
 
