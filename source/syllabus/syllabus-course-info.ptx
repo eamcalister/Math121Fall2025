@@ -5,17 +5,17 @@
       <dl>
         <li><title>Course Title</title>
           <p>
-            Course Title
+            Precalculus
           </p>
         </li>
         <li><title>Course Number</title>
           <p>
-            MATH XXX
+            MATH 121
           </p>
         </li>
         <li><title>Credits</title>
           <p>
-            n
+            4
           </p>
         </li>
         <li><title>Times and Rooms</title>
@@ -39,12 +39,12 @@
           <ul>
             <li>
               <p>
-                <em>Section 1 - </em> Eddie Math (<url href="mailto:math_e@fortlewis.edu">math_e@fortlewis.edu</url>)
+                <em>Sections 2 and 4 - </em> Eddie Math (<url href="mailto:math_e@fortlewis.edu">math_e@fortlewis.edu</url>)
               </p>
             </li>
             <li>
               <p>
-                <em>Section 2 - </em> Emilia Numbers (<url href="mailto:enumbers@fortlewis.edu">enumbers@fortlewis.edu</url>)
+                <em>Section 1 and 3 - </em> Erich McAlister (<url href="mailto:mcalister_e@fortlewis.edu">mcalister_e@fortlewis.edu</url>)
               </p>
             </li>
           </ul>        
@@ -85,7 +85,7 @@
       </li>
       <li>
         <p>
-          <em>Emilia Numbers' Office Hours:</em>
+          <em>Erich McAlister's Office Hours:</em> MWF 1:30-2:30pm in the Peer Education Center (PEC, located in the library), or by appointment.
         </p>
       </li>
     </ul>
