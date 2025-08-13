@@ -44,7 +44,7 @@
             </li>
             <li>
               <p>
-                <em>Section 1 and 3 - </em> Erich McAlister (<url href="mailto:mcalister_e@fortlewis.edu">mcalister_e@fortlewis.edu</url>)
+                <em>Section 1 and 3 - </em> Erich McAlister, EBH 262, (<url href="mailto:mcalister_e@fortlewis.edu">mcalister_e@fortlewis.edu</url>)
               </p>
             </li>
           </ul>        
@@ -55,7 +55,7 @@
   <paragraphs xml:id="description">
     <title>Course Description</title>
     <p>
-      Enter the catalog description of the course here.
+      This course covers topics in algebra and trigonometry necessary for students who plan to enroll in MATH 221. Topics include functions, compositions and inverses, and domain and range. Polynomial, rational, exponential, logarithmic, and trigonometric functions are examined in depth with an emphasis on symbolic methods, parameters that describe each family of functions, and multiple representations of functions.
     </p>
   </paragraphs>
 
@@ -67,10 +67,7 @@
   <paragraphs xml:id="course-materials">
     <title>Course Materials</title>
     <p>
-      Required Text: Enter the required textbook here, include ISBN.
-    </p>
-    <p>
-      Other required software, suggested readings, course packs, et. should be included here.
+      Required Text: <em>Functions Modeling Change: A Preparation for Calculus - 6th Edition</em> by Connally et al (ISBN 978-1119498315)
     </p>
   </paragraphs>
 
