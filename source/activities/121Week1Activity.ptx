@@ -29,61 +29,41 @@
     </objectives>
             <introduction>
                 <p>
-                    This activity asks students to describe the effect of different affine transformation of functions after experimenting with Desmos. The pre-built Desmos graph appears in the html version while a QR code is created in the print version.
+                    This activity is intended to help you review some of the algebraic functions you saw in previous math courses. Please feel free to work together. If you get stuck, just ask and we'll get unstuck.
                 </p>
             </introduction>
-
+        <page>
             <exercise>
                 <introduction>
                     <p>
-                        Fill in the blank forms of functions
+                        Fill in the blanks defining each of the following types of functions. If there are multiple forms you remember, try to write all of them down.
                     </p>
                 </introduction>
-                <task>
+                <task workspace="1.5in">
                     <statement>
                         <p>
-                             <m>f(-x)</m> has the same graph as <m>f(x)</m>, except <fillin characters="35" /> <fillin characters="25" />.
+                             A <term>linear</term> function is one of the form <fillin characters="35" />.
                         </p>
                     </statement>
                 </task>   
-                <task>
+                <task workspace="1.5in">
                     <statement>
                         <p>
-                            <m>-f(x)</m> has the same graph as <m>f(x)</m>, except <fillin characters="35" /> <fillin characters="25" />.
+                            A <term>quadratic</term> function is one of the form <fillin characters="35" />.
                         </p>
                     </statement>
                 </task> 
-                <task>
+                <task workspace="1.5in">
                     <statement>
                         <p>
-                            <m>f(x-a)</m> has the same graph as <m>f(x)</m>, except <fillin characters="35" /> <fillin characters="25" />.
+                            An <term>exponential</term> function is one of the form <fillin characters="35" />.
                         </p>
                     </statement>
                 </task>
-                <task>
-                    <statement>
-                        <p>
-                            <m>f(x+a)</m> has the same graph as <m>f(x)</m>, except <fillin characters="35" /> <fillin characters="25" />.
-                        </p>
-                    </statement>
-                </task>
-                <task>
-                    <statement>
-                        <p>
-                            <m>f(x)+b</m> has the same graph as <m>f(x)</m>, except <fillin characters="35" /> <fillin characters="25" />.
-                        </p>
-                    </statement>
-                </task>
-                <task>
-                    <statement>
-                        <p>
-                            <m>f(x)+b</m> has the same graph as <m>f(x)</m>, except <fillin characters="35" /> <fillin characters="25" />.
-                        </p>
-                    </statement>
-                </task>
-
             </exercise>
+        </page>
 
+        <page>
             <exercise>
                 <task>
                     <statement>
@@ -93,17 +73,35 @@
                     </statement>
                 </task>
             </exercise>
+        </page>
+            
+        <page>
 
             <exercise>
-                <task>
-                    <statement>
+                    <introduction>
                         <p>
-                            Find formulas for exponential and linear through the same two points.
+                            Find a formula for a function <m>f(x)</m> whose graph passes through the points <m>(1,4)</m> and <m>(5,12)</m> under each of the following assumtions:
                         </p>
-                    </statement>
-                </task>
-            </exercise>
+                    </introduction>
 
+                    <task workspace="2in">
+                        <statement>
+                                <p>
+                                    Assume <m>f(x)</m> is a linear function.
+                                </p>
+                        </statement>
+                    </task>
+                    
+                    <task workspace="2in">
+                        <statement>
+                                <p>
+                                    Assume <m>f(x)</m> is an exponential function.
+                                </p>
+                        </statement>
+                    </task>
+            </exercise>
+        </page>
+        <page>
             <exercise>
                 <task>
                     <statement>
@@ -113,7 +111,7 @@
                     </statement>
                 </task>
             </exercise>
-
+        </page>
         </worksheet>
 <!--/article>
 </pretext-->
