@@ -37,7 +37,7 @@
   <xi:include href="./syllabus/syllabus-student-resources.ptx" />
 
   <!--include course schedule-->
-  <!--xi:include href="./syllabus/syllabus-calendar.ptx" /-->
+  <xi:include href="./syllabus/syllabus-calendar.ptx" />
 
 
 
