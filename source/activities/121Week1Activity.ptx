@@ -64,12 +64,11 @@
         </page>
 
         <page>
-            <exercise>
-                <task>
-                    <statement>
-                        <p>
-                            Match each graph shown below with one or more of the given formulas.
-                        </p>
+<exercise>
+    <statement>
+             <p>
+                Match each graph shown below with one or more of the given formulas.
+            </p>            
                         <ol>
                             <li>
                                 <p>
@@ -193,11 +192,7 @@
                 
 </statement>             
                 
-                
-                
-                
-                </task>
-            </exercise>
+</exercise>
         </page>
             
         <page>
