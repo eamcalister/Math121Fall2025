@@ -70,9 +70,25 @@
     <exercise>
         <introduction>
             <p>
-                In this exercise, we will think about the vertex form as a sequence of transformations applied to <m>g(x) = x^2</m>. Then we will explore what you're really doing when you "solve for <m>a</m>" in finding the formula for a quadratic with a given vertex through a prescribed point.
+                In this exercise, we will describe the vertex form as a sequence of transformations applied to <m>g(x) = x^2</m>.
             </p>
         </introduction>
+<task workspace="2.5in">
+    <statement>
+        <p>
+            Find the formula for a quadratic function <m>Q(x)</m> whose vertex is at <m>(3,2)</m> and whose graph passes through the point <m>(5,4)</m>.
+        </p>
+    </statement>
+</task>
+
+<task workspace="1in">
+    <statement>
+        <p>
+            What transformations are applied (give them in the correct order too) to <m>g(x) = x^2</m> to obtain the function you found in part (a)? 
+        </p>
+    </statement>
+</task>
+
 <task workspace="1.5in">
     <statement>
         <p>
@@ -84,25 +100,38 @@
         </p>
     </statement>
 </task>
-<task workspace="1.5in">
-    <statement>
-        <p>
-            Find the formula for a quadratic function <m>Q(x)</m> whose vertex is at <m>(3,2)</m> and whose graph passes through the point <m>(5,4)</m>.
-        </p>
-    </statement>
-</task>
 
-<task workspace="1.5in">
+<!--task workspace="1.5in">
     <statement>
         <p>
-            Now undo the transformations described in part (a) to find the point on the graph of <m>g(x)=x^2</m> that was transformed to the point <m>(5,4)</m> on the graph of your function in part (b) (you could call this the "parent point" of <m>(5,4)</m>). When you have that, write a sentence or two (in your own words, to the best of your abilities) about why the value of <m>a</m> makes sense.
+            Now undo the transformations described in part (a) to find the point on the graph of <m>g(x)=x^2</m> that was transformed to the point <m>(5,4)</m> on the graph of your function in part (b) (you could call this the "parent point" of <m>(5,4)</m>).
+            <ol marker="i">
+                <li>
+                    <p>
+                        What are the coordinates of the parent point of <m>(5,4)</m>?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        How far to the right of the origin is the parent point of <m>(5,4)</m>? How does this compare to the relationship between <m>(3,2)</m> (the vertex of our function) and <m>(5,4)</m>?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        What is the vertical distance between the origin the parent point of <m>(5,4)</m>? How does this compare to the vertical distance between <m>(3,2)</m> and <m>(5,4)</m> and how does this tell you what <m>a</m> should be in the vertex form?
+                    </p>
+                </li>
+            </ol>
         </p>
     </statement>
-</task>
+</task-->
+
+
+
 </exercise>
 
 </page>
-
+<page>
 <example>
     <p>
         Here's another way to find the vertex of a quadratic using simpler functions and shifts. Consider the function
@@ -138,7 +167,7 @@ into vertex form.
     </statement>
     
 </exercise>
-
+</page>
 
 </worksheet>
 <!--/article>
