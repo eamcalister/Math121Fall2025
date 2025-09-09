@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--uncomment <pretext> and <article> tags at the beginning and end for standalone pdf generation-->
+<!--pretext>
+<article-->
+    <worksheet margin="1in" bottom="1.25cm" >
+            <title>Math 121 Week 3 Activity</title>
+
+        <objectives>
+		<p>
+            In this activity we will do the following:
+        </p>
+        <ul>
+	  		<li>
+	  			<p>
+					Show that formulas for exponential functions to fit two points on the graph can be found easily using horizontal transformations.
+	  			</p>
+	  		</li>
+            <!--li>
+                <p>
+                    Interpret the continuous growth rate of an exponential function as a horizontal compression/stretch factor.
+                </p>
+            </li-->
+            <li>
+                <p>
+                    Apply our knowledge to solve real-world problems.
+                </p>
+            </li>
+	  	</ul>
+    </objectives>
+            <introduction>
+                <p>
+                    In this activity we will see some ways in which graphical transformations can make some previously difficult problems easier. Please feel free to work together. If you get stuck, just ask and we'll get unstuck.
+                </p>
+                <p>
+                    Please note, some of these questions have answers that will require you to write complete sentences in order to help you make better sense of the math you're learning. This may seem difficult at first.
+                </p>
+            </introduction>
+        <page>
+            <exercise>
+                <introduction>
+                    <p>
+                         Recall that in <xref ref="week1prob3"/> we found a formula for the exponential function passing through the points <m>(1,4)</m> and <m>(5,12)</m> by solving a system of equations. The formula was 
+                         <me>
+                            f(x) = \frac{4}{\sqrt[4]{3}}(\sqrt[4]{3})^x.
+                         </me>
+                         Here we can build that same function starting with the base function
+                         <me>
+                            g(x) = 4(3)^x,
+                         </me>
+                         which passes through <m>(0,4)</m> and <m>(1,12)</m>. <term>Note:</term> The <m>4</m> is the <m>y</m>-value of the initial point and the <m>3</m> is the <em>ratio</em> of the <m>y</m>-values of the later point over the earlier point.
+                    </p>
+                </introduction>
+                <task workspace="1.5in">
+                    <statement>
+                        <p>
+                            Give the explicit formula for the transformation of <m>g(x)</m> that stretches the point <m>(1,12)</m> to <m>(3,12)</m>. (This makes the horizontal spacing of the two points equal to the horizontal spacing of the ones at the beginning of the problem). 
+                        </p>
+                    </statement>
+                </task>   
+                <task workspace="1.5in">
+                    <statement>
+                        <p>
+                            Now describe the next transformation that places <m>(0,4)</m> and <m>(3,12)</m> in the desired positions from the beginning of this problem. Give the formula both explicitly and in terms of <m>g(x)</m>. 
+                        </p>
+                    </statement>
+                </task> 
+    </exercise>
+    </page>
+
+<page>
+    <exercise workspace="3in">
+    <statement>
+        <p>
+            Use the ideas from the last problem to find the formula for an exponential function that passes through the points <m>(7,4)</m> and <m>(15,2)</m>.
+        </p>
+    </statement>
+</exercise>
+
+<exercise workspace="4in">
+    
+<statement>
+<p>
+    Once you can find a formula for an exponential function that looks like
+    <me>
+        f(t) = a\cdot b^{\frac{t-h}{P}}
+    </me>
+    recall that you can always replace <m>b</m> with <m>e^{k}</m> where <m>k = \ln(b)</m>. Thus,
+    <me >
+        f(t) = a e^{{\frac{k(t-h)}{P}}}.
+    </me>
+    Describe the transformations done to the parent function <m>y=e^t</m> to obtain the function <m>f(t)</m> given above.
+</p>
+</statement>
+</exercise>
+
+</page>
+
+<exercise workspace="6in">
+    <introduction>
+        <p>
+            Now that we can build our functions in the form <m>f(t) = a e^{{\frac{k(t-h)}{P}}}</m> we can model and solve for inputs easily.
+        </p>
+        <p>
+            Suppose <m>P</m> is a population of an ant colony in your professor's backyard. One week after they noticed the colony, there were <m>250</m> ants. Two weeks later, there we <m>375</m>. 
+        </p>
+    </introduction>
+    <task workspace="3in">
+        <statement>
+            <p>
+                Find formulas for the population of ants both in the form <m>P = a\cdot b^{\frac{t-h}{P}}</m> and <m>a\cdot e^{\frac{k(t-h)}{P}}</m>.
+            </p>
+        </statement>
+    </task>
+    <task workspace="3in">
+        <statement>
+            <p>
+                How long after the colony was first noticed will there be <m>1000</m> ants?
+            </p>
+        </statement>
+    </task>
+</exercise>
+
+</worksheet>
+<!--/article>
+</pretext-->

@@ -12,6 +12,7 @@
     </introduction>
     <xi:include href="./activities/121Week1Activity.ptx"/>
     <xi:include href="./activities/121Week2Activity.ptx"/>
+    <xi:include href="./activities/121Week3Activity.ptx"/>
     
 
     <!-- Add more xi:include files here to include them in the main course -->
