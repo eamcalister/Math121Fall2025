@@ -10,54 +10,54 @@ var ptx_lunr_docs = [
   "body": "  Mathematics Department Fort Lewis College       "
 },
 {
-  "id": "sec-section-name-4",
+  "id": "Week1",
   "level": "1",
-  "url": "sec-section-name-4.html",
+  "url": "Week1.html",
   "type": "Worksheet",
   "number": "",
   "title": "Math 121 Week 1 Activity",
   "body": " Math 121 Week 1 Activity   In this activity we will do the following:    Review the basic forms of linear, quadratic, and exponential functions.    Identify functions of each of the above types from their graphs.    Find formulas for functions in the families given above from points on their graphs.      This activity is intended to help you review some of the algebraic functions you saw in previous math courses. Please feel free to work together. If you get stuck, just ask and we'll get unstuck.      Fill in the blanks defining each of the following types of functions. If there are multiple forms you remember, try to write all of them down.     A linear function is one of the form .      A quadratic function is one of the form .      An exponential function is one of the form .         Match each graph shown below with one or more of the given formulas.                                                f(x)=3*x-2            f(x)=3*x+1            f(x)=-3*x^2+6*x+3              f(x)=-3*x^2 - 6*x + 3            f(x)=3*5^(x\/2)            f(x)=3*5^(-x\/2)                Find a formula for a function whose graph passes through the points and under each of the following assumtions:     Assume is a linear function.      Assume is an exponential function.         Find formulas for quadratic functions satisfying each description below.     The -intercept is at and there are two -intercepts at and .      The vertex is at and the graph passes through the point .      "
 },
 {
-  "id": "sec-section-name-4-2",
+  "id": "Week1-2",
   "level": "2",
-  "url": "sec-section-name-4.html#sec-section-name-4-2",
+  "url": "Week1.html#Week1-2",
   "type": "Objectives",
   "number": "",
   "title": "",
   "body": " In this activity we will do the following:    Review the basic forms of linear, quadratic, and exponential functions.    Identify functions of each of the above types from their graphs.    Find formulas for functions in the families given above from points on their graphs.    "
 },
 {
-  "id": "sec-section-name-4-4-1",
+  "id": "Week1-4-1",
   "level": "2",
-  "url": "sec-section-name-4.html#sec-section-name-4-4-1",
+  "url": "Week1.html#Week1-4-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
   "body": "  Fill in the blanks defining each of the following types of functions. If there are multiple forms you remember, try to write all of them down.     A linear function is one of the form .      A quadratic function is one of the form .      An exponential function is one of the form .    "
 },
 {
-  "id": "sec-section-name-4-5-1",
+  "id": "Week1-5-1",
   "level": "2",
-  "url": "sec-section-name-4.html#sec-section-name-4-5-1",
+  "url": "Week1.html#Week1-5-1",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
   "body": "  Match each graph shown below with one or more of the given formulas.                                                f(x)=3*x-2            f(x)=3*x+1            f(x)=-3*x^2+6*x+3              f(x)=-3*x^2 - 6*x + 3            f(x)=3*5^(x\/2)            f(x)=3*5^(-x\/2)           "
 },
 {
-  "id": "sec-section-name-4-6-1",
+  "id": "week1prob3",
   "level": "2",
-  "url": "sec-section-name-4.html#sec-section-name-4-6-1",
+  "url": "Week1.html#week1prob3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
   "body": "  Find a formula for a function whose graph passes through the points and under each of the following assumtions:     Assume is a linear function.      Assume is an exponential function.    "
 },
 {
-  "id": "sec-section-name-4-7-1",
+  "id": "Week1-7-1",
   "level": "2",
-  "url": "sec-section-name-4.html#sec-section-name-4-7-1",
+  "url": "Week1.html#Week1-7-1",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
@@ -116,6 +116,69 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": "  Use the idea from the example given above to put the function into vertex form.   "
+},
+{
+  "id": "sec-section-name-6",
+  "level": "1",
+  "url": "sec-section-name-6.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Math 121 Week 3 Activity",
+  "body": " Math 121 Week 3 Activity   In this activity we will do the following:    Show that formulas for exponential functions to fit two points on the graph can be found easily using horizontal transformations.     Apply our knowledge to solve real-world problems.      In this activity we will see some ways in which graphical transformations can make some previously difficult problems easier. Please feel free to work together. If you get stuck, just ask and we'll get unstuck.  Please note, some of these questions have answers that will require you to write complete sentences in order to help you make better sense of the math you're learning. This may seem difficult at first.      Recall that in Week 1 we found a formula for the exponential function passing through the points and by solving a system of equations. The formula was We can build that same function starting with the base function We chose this function because is the -value of the initial point ( ) and the is the ratio of the -values of the later point over the earlier point ( ). The graph of passes through the points and , and we can apply transformations so that the resulting function passes through the given points and .     Give the explicit formula for the transformation of that stretches the point to while leaving the -intercept fixed. (This makes the horizontal spacing of the two points equal to the horizontal spacing of the ones at the beginning of the problem). Sketch the graph of this new function, with any important points labeled, on the axes provided on the next page.      Now describe the next transformation that places and in the desired positions ( and , respectively) from the beginning of this problem. Give the formula both explicitly and in terms of . Now sketch the graph of your final function on the axes provided.        Figure showing the sequence of transformations for problem 1.      g(x) = 4*3^x      g(x)           (1,4)      (5,12)           Use the ideas from the last problem to find the formula for an exponential function that passes through the points and .        Once you can find a formula for an exponential function that looks like recall that you can always replace with where . Thus, Describe the transformations done to the parent function to obtain the function given above.       Now that we can build our functions in the form we can model and solve for inputs easily.  Suppose is a population of an ant colony in your professor's backyard. One week after they noticed the colony, there were ants. Two weeks later, there we .     Find formulas for the population of ants both in the form and .      How long after the colony was first noticed will there be ants?     "
+},
+{
+  "id": "sec-section-name-6-2",
+  "level": "2",
+  "url": "sec-section-name-6.html#sec-section-name-6-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": " In this activity we will do the following:    Show that formulas for exponential functions to fit two points on the graph can be found easily using horizontal transformations.     Apply our knowledge to solve real-world problems.    "
+},
+{
+  "id": "sec-section-name-6-4-1",
+  "level": "2",
+  "url": "sec-section-name-6.html#sec-section-name-6-4-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Recall that in Week 1 we found a formula for the exponential function passing through the points and by solving a system of equations. The formula was We can build that same function starting with the base function We chose this function because is the -value of the initial point ( ) and the is the ratio of the -values of the later point over the earlier point ( ). The graph of passes through the points and , and we can apply transformations so that the resulting function passes through the given points and .     Give the explicit formula for the transformation of that stretches the point to while leaving the -intercept fixed. (This makes the horizontal spacing of the two points equal to the horizontal spacing of the ones at the beginning of the problem). Sketch the graph of this new function, with any important points labeled, on the axes provided on the next page.      Now describe the next transformation that places and in the desired positions ( and , respectively) from the beginning of this problem. Give the formula both explicitly and in terms of . Now sketch the graph of your final function on the axes provided.    "
+},
+{
+  "id": "transformation_axes",
+  "level": "2",
+  "url": "sec-section-name-6.html#transformation_axes",
+  "type": "Figure",
+  "number": "2",
+  "title": "",
+  "body": " Figure showing the sequence of transformations for problem 1.      g(x) = 4*3^x      g(x)           (1,4)      (5,12)        "
+},
+{
+  "id": "sec-section-name-6-5-2",
+  "level": "2",
+  "url": "sec-section-name-6.html#sec-section-name-6-5-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Use the ideas from the last problem to find the formula for an exponential function that passes through the points and .   "
+},
+{
+  "id": "sec-section-name-6-6-1",
+  "level": "2",
+  "url": "sec-section-name-6.html#sec-section-name-6-6-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Once you can find a formula for an exponential function that looks like recall that you can always replace with where . Thus, Describe the transformations done to the parent function to obtain the function given above.   "
+},
+{
+  "id": "sec-section-name-6-7",
+  "level": "2",
+  "url": "sec-section-name-6.html#sec-section-name-6-7",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Now that we can build our functions in the form we can model and solve for inputs easily.  Suppose is a population of an ant colony in your professor's backyard. One week after they noticed the colony, there were ants. Two weeks later, there we .     Find formulas for the population of ants both in the form and .      How long after the colony was first noticed will there be ants?    "
 }
 ]
 
