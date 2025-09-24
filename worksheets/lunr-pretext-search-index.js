@@ -124,7 +124,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Math 121 Week 3 Activity",
-  "body": " Math 121 Week 3 Activity   In this activity we will do the following:    Show that formulas for exponential functions to fit two points on the graph can be found easily using horizontal transformations.     Apply our knowledge to solve real-world problems.      In this activity we will see some ways in which graphical transformations can make some previously difficult problems easier. Please feel free to work together. If you get stuck, just ask and we'll get unstuck.  Please note, some of these questions have answers that will require you to write complete sentences in order to help you make better sense of the math you're learning. This may seem difficult at first.      Recall that in Week 1 we found a formula for the exponential function passing through the points and by solving a system of equations. The formula was We can build that same function starting with the base function We chose this function because is the -value of the initial point ( ) and the is the ratio of the -values of the later point over the earlier point ( ). The graph of passes through the points and , and we can apply transformations so that the resulting function passes through the given points and .     Give the explicit formula for the transformation of that stretches the point to while leaving the -intercept fixed. (This makes the horizontal spacing of the two points equal to the horizontal spacing of the ones at the beginning of the problem). Sketch the graph of this new function, with any important points labeled, on the axes provided on the next page.      Now describe the next transformation that places and in the desired positions ( and , respectively) from the beginning of this problem. Give the formula both explicitly and in terms of . Now sketch the graph of your final function on the axes provided.        Figure showing the sequence of transformations for problem 1.      g(x) = 4*3^x      g(x)           (1,4)      (5,12)           Use the ideas from the last problem to find the formula for an exponential function that passes through the points and .        Once you can find a formula for an exponential function that looks like recall that you can always replace with where . Thus, Describe the transformations done to the parent function to obtain the function given above. Assume is positive and is nonzero.       Now that we can build our functions in the form we can model and solve for inputs easily.  Suppose is a population of an ant colony in your professor's backyard. One week after they noticed the colony, there were ants. Two weeks later, there we .     Find formulas for the population of ants both in the form and .      How long after the colony was first noticed will there be ants?     "
+  "body": " Math 121 Week 3 Activity   In this activity we will do the following:    Show that formulas for exponential functions to fit two points on the graph can be found easily using horizontal transformations.     Apply our knowledge to solve real-world problems.      In this activity we will see some ways in which graphical transformations can make some previously difficult problems easier. Please feel free to work together. If you get stuck, just ask and we'll get unstuck.  Please note, some of these questions have answers that will require you to write complete sentences in order to help you make better sense of the math you're learning. This may seem difficult at first.      Recall that in Week 1 we found a formula for the exponential function passing through the points and by solving a system of equations. The formula was We can build that same function starting with the base function We chose this function because is the -value of the initial point ( ) and the is the ratio of the -values of the later point over the earlier point ( ). The graph of passes through the points and , and we can apply transformations so that the resulting function passes through the given points and .     Give the explicit formula for the transformation of that stretches the point to while leaving the -intercept fixed. (This makes the horizontal spacing of the two points equal to the horizontal spacing of the ones at the beginning of the problem). Sketch the graph of this new function, with any important points labeled, on the axes provided on the next page.      Now describe the next transformation that places and in the desired positions ( and , respectively) from the beginning of this problem. Give the formula both explicitly and in terms of . Now sketch the graph of your final function on the axes provided.        Figure showing the sequence of transformations for problem 1.      g(x) = 4*3^x      g(x)           (1,4)      (5,12)           Use the ideas from the last problem to find the formula for an exponential function that passes through the points and .        Once you can find a formula for an exponential function that looks like recall that you can always replace with where . Thus, Describe the transformations done to the parent function to obtain the function given above.       Now that we can build our functions in the form we can model and solve for inputs easily.  Suppose is a population of an ant colony in your professor's backyard. One week after they noticed the colony, there were ants. Two weeks later, there we .     Find formulas for the population of ants both in the form and .      How long after the colony was first noticed will there be ants?     "
 },
 {
   "id": "Week3-2",
@@ -169,7 +169,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  Once you can find a formula for an exponential function that looks like recall that you can always replace with where . Thus, Describe the transformations done to the parent function to obtain the function given above. Assume is positive and is nonzero.   "
+  "body": "  Once you can find a formula for an exponential function that looks like recall that you can always replace with where . Thus, Describe the transformations done to the parent function to obtain the function given above.   "
 },
 {
   "id": "Week3-7",
@@ -179,6 +179,51 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "",
   "body": "  Now that we can build our functions in the form we can model and solve for inputs easily.  Suppose is a population of an ant colony in your professor's backyard. One week after they noticed the colony, there were ants. Two weeks later, there we .     Find formulas for the population of ants both in the form and .      How long after the colony was first noticed will there be ants?    "
+},
+{
+  "id": "Week5",
+  "level": "1",
+  "url": "Week5.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Math 121 Week 5 Activity",
+  "body": " Math 121 Week 5 Activity   In this activity we will do the following:    Find values of the sine and cosine functions.    Translate between radians and degrees    Apply transformations to change the amplitude and midline of sinusoidal functions.      Please feel free to work together. If you get stuck, just ask and we'll get unstuck.  Please note, some of these questions have answers that will require you to write complete sentences in order to help you make better sense of the math you're learning. This may seem difficult at first.      Recall the following relationship between radians and degrees:           f(x,y)=x^2+y^2           Draw the points on the unit circle at and any other points whose reference angles equal or    Note: There should be 12 total points.        Now, for each of these labeled points, write a corresponding angle measured counter-clockwise from the positive -axis and the sine and cosine of this angle. (Making a table might be a good idea.)         Suppose a mill is powered by a waterwheel on a river with a horizontal axle. The wheel has radius feet and the water rises feet above the bottom the wheel.     Write an equation for the function which gives the height on the edge of the wheel as a function of the angle measured counterclockwise from 3 o'clock on the wheel. Sketch a graph of this function.      Now suppose the wheel takes seconds to perform one full rotation. If you hang onto the edge of the wheel and ride one full rotation, how much time would you spend at least feet above the water?         In this problem, we have the same waterwheel as in the last problem. Now we'll think about arc length and angles.     What is the arc length (measured on the edge of the wheel) that is underwater?      If the water is flowing at the same speed as the wheel (i.e. the water moves 1 foot in the same time it takes for the outside of the wheel to rotate foot), how fast is the river moving (in feet per second).       "
+},
+{
+  "id": "Week5-2",
+  "level": "2",
+  "url": "Week5.html#Week5-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": " In this activity we will do the following:    Find values of the sine and cosine functions.    Translate between radians and degrees    Apply transformations to change the amplitude and midline of sinusoidal functions.    "
+},
+{
+  "id": "Week5-4-1",
+  "level": "2",
+  "url": "Week5.html#Week5-4-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Recall the following relationship between radians and degrees:           f(x,y)=x^2+y^2           Draw the points on the unit circle at and any other points whose reference angles equal or    Note: There should be 12 total points.        Now, for each of these labeled points, write a corresponding angle measured counter-clockwise from the positive -axis and the sine and cosine of this angle. (Making a table might be a good idea.)    "
+},
+{
+  "id": "Week5-5-1",
+  "level": "2",
+  "url": "Week5.html#Week5-5-1",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Suppose a mill is powered by a waterwheel on a river with a horizontal axle. The wheel has radius feet and the water rises feet above the bottom the wheel.     Write an equation for the function which gives the height on the edge of the wheel as a function of the angle measured counterclockwise from 3 o'clock on the wheel. Sketch a graph of this function.      Now suppose the wheel takes seconds to perform one full rotation. If you hang onto the edge of the wheel and ride one full rotation, how much time would you spend at least feet above the water?    "
+},
+{
+  "id": "Week5-6-1",
+  "level": "2",
+  "url": "Week5.html#Week5-6-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  In this problem, we have the same waterwheel as in the last problem. Now we'll think about arc length and angles.     What is the arc length (measured on the edge of the wheel) that is underwater?      If the water is flowing at the same speed as the wheel (i.e. the water moves 1 foot in the same time it takes for the outside of the wheel to rotate foot), how fast is the river moving (in feet per second).    "
 }
 ]
 
