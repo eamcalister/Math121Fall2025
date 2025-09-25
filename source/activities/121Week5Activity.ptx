@@ -61,7 +61,7 @@
 <diagram dimensions="(300,300)" margins="(10,0,10,0)">
   <definition>f(x,y)=x^2+y^2</definition>
   <coordinates bbox="(-1.5,-1.5,1.5,1.5)">
-    <grid-axes xlabel="x" ylabel="y"/>
+    <grid-axes xlabel="x" ylabel="y" stroke="black"/>
     <implicit-curve function="f" k="1" stroke="blue" />
   </coordinates>
 </diagram>
@@ -104,7 +104,7 @@ Draw the points on the unit circle at <m> \theta = \pi/6, \pi/3, \pi/4, </m> and
 <task workspace = "3in">
 <statement>
 <p>
-   Write an equation for the function <m> H</m> which gives the height on the edge of the wheel as a function of the angle <m> \theta </m> measured counterclockwise from 3 o'clock on the wheel. Sketch a graph of this function. 
+   Write an equation for the function <m> H</m> which gives the height on the edge of the wheel above the water, in feet, as a function of the angle <m> \theta </m> measured counterclockwise from 3 o'clock on the wheel. Sketch a graph of this function. 
 </p>
 </statement>
 </task>
