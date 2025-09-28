@@ -58,61 +58,18 @@
  <image>
 
 <prefigure label = "circle" xmlns="https://prefigure.org">
-<diagram dimensions="(500,500)" margins="5">
-  
-  <coordinates bbox="(-1,-1,5,5)">
-    <path start="(0,0)" stroke="blue" arrows="0">
-      <lineto point="(4,0)"/>
-      <lineto point="(1,4)"/>
-      <lineto point="(0,0)"/>
-    </path>
-    <path start="(0,0)" stroke="blue" arrows="0" dash="4 4">
-      <lineto point="(192/75,48/25)"/>
-    </path>
-    <path start="(1,4)" stroke="blue" arrows="0" dash="4 4">
-      <lineto point="(1,0)"/>
-    </path>
-    <angle-marker points="((4,0),(0,0),(192/75,48/25))" radius="20">
-      <m>\theta</m>
-    </angle-marker>
-    <angle-marker points="((192/75,48/25),(0,0),(1,4))" radius="25">
-      <m>\phi</m>
-    </angle-marker>
-    <angle-marker points="((1,4),(192/75,48/25),(0,0))" radius="15">
-    </angle-marker>
-    <angle-marker points="((4,0),(1,0),(1,4))" radius="15">
-    </angle-marker>
-    <label anchor="(0,0)" alignment="west">
-      <m> A </m>
-    </label>
-    <label anchor="(4,0)" alignment="east">
-      <m> B </m>
-    </label>
-    <label anchor="(1,4)" alignment="north">
-      <m> C </m>
-    </label>
-    <label anchor="(192/75,48/25)" alignment="northeast">
-      <m> D </m>
-    </label>
-    <label anchor="(2,0)" alignment="south">
-      <m>c_1 </m>
-    </label>
-    <label anchor="(.5,2)" alignment="west">
-      <m>c_2 </m>
-    </label>
-    <label anchor="(200/150,45/50)" alignment="east">
-      <m>h_1</m>
-    </label>
-    <label anchor="(1,2)" alignment="east">
-      <m>h_2</m>
-    </label>
-    <label anchor="(1.75,3)" alignment="north" rotate="-53.13">
-      <m>c_2\sin(\phi)</m>
-    </label>
-        <label anchor="(3.25,1)" alignment="north" rotate="-53.13">
-      <m>c_1\sin(\theta)</m>
-    </label>
+<diagram dimensions="(300,300)" margins="(10,0,10,0)">
+
+  <definition>f(x,y)=x^2+y^2</definition>
+
+  <coordinates bbox="(-1.5,-1.5,1.5,1.5)">
+
+    <grid-axes xlabel="x" ylabel="y" stroke="black"/>
+
+    <implicit-curve function="f" k="1" stroke="blue" />
+
   </coordinates>
+
 </diagram>
 </prefigure>
 </image>     
