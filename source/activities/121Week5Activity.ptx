@@ -27,6 +27,7 @@
             </li>
 	  	</ul>
     </objectives>
+    
             <introduction>
                 <p>
                   Please feel free to work together. If you get stuck, just ask and we'll get unstuck.
@@ -34,46 +35,68 @@
                 <p>
                     Please note, some of these questions have answers that will require you to write complete sentences in order to help you make better sense of the math you're learning. This may seem difficult at first.
                 </p>
-            </introduction>                  
-  <page>
-            <exercise >
+            </introduction>    
+   
+
+<page>
+
+<exercise >
          <introduction>
                     <p>
                          Recall the following relationship between radians and degrees:
                          <me>
-                            1 \text{radian} = \frac{\pi}{180} degrees.
+                            1 \text{radian} = \frac{180}{\pi} \text{degrees}.
                          </me>
                         
                     </p>
-                
-        <figure xml:id="unit_circle">
-    <caption> The unit circle
-    </caption>
+</introduction>
 
-<image>
+    <task>
+<statement>
+<sidebyside>
+<p>
+ <image>
 
 <prefigure label = "circle" xmlns="https://prefigure.org">
-<diagram dimensions="(300,300)" margins="(100,0,100,0)">
+<diagram dimensions="(300,300)" margins="(10,0,10,0)">
+
   <definition>f(x,y)=x^2+y^2</definition>
+
   <coordinates bbox="(-1.5,-1.5,1.5,1.5)">
-    <grid-axes xlabel="x" ylabel="y"/>
+
+    <grid-axes xlabel="x" ylabel="y" stroke="black"/>
+
     <implicit-curve function="f" k="1" stroke="blue" />
+
   </coordinates>
+
 </diagram>
 </prefigure>
-</image>   
-</figure>
-</introduction>
-    <task workspace ="2in">
-        <p> 
-Draw the points on the unit circle at <m> \theta = \pi/6, \pi/3, \pi/4, </m> and any other points whose reference angles equal <m> \pi/3, \pi/4, </m> or <m> \pi/6. </m> Note there should be 12 total points.
-        </p>
-    </task> 
+</image>     
+
+
+</p>
     
-    <task workspace ="4in">
+
+
+<paragraphs> 
+<p>    
+Draw the points on the unit circle at <m> \theta = \pi/6, \pi/3, \pi/4, </m> and any other points whose reference angles equal <m> \pi/3, \pi/4, </m> or <m> \pi/6. </m> 
+</p>
+<p>
+<em>Note:</em> There should be 12 total points.
+</p>
+</paragraphs>
+</sidebyside>
+</statement>
+</task> 
+    
+    <task workspace ="3.5in">
+    <statement>
         <p>
-            Now, for each of these labeled points, write a corresponding angle measured counter-clockwise from the positive <m> x</m>-axis and the sine and cosine of this angle.
+            Now, for each of these labeled points, write a corresponding angle measured counter-clockwise from the positive <m> x</m>-axis and the sine and cosine of this angle. (Making a table might be a good idea.)
         </p>
+    </statement>
     </task>
 </exercise>
 </page>
@@ -85,26 +108,47 @@ Draw the points on the unit circle at <m> \theta = \pi/6, \pi/3, \pi/4, </m> and
     </p>
    </introduction> 
 <task workspace = "3in">
+<statement>
 <p>
-   Write an equation for the function <m> H</m> which gives the height on the edge of the wheel as a function of the angle <m> \theta </m> measured counterclockwise from 3 o'clock on the wheel. Sketch a graph of this function. 
+   Write an equation for the function <m> H</m> which gives the height on the edge of the wheel above the water, in feet, as a function of the angle <m> \theta </m> measured counterclockwise from 3 o'clock on the wheel. Sketch a graph of this function. 
 </p>
+</statement>
 </task>
 <task workspace = "4in">
+
+<statement>
+<p>
+Now suppose the wheel takes <m> 30</m> seconds to perform one full rotation. If you hang onto the edge of the wheel and ride one full rotation, how much time would you spend at least <m> 5+10\frac{\sqrt{2}}{2} </m> feet above the water?
+</p>
+</statement> 
+</task>
+</exercise>
+</page>
+<page>
+
+<exercise>   
+<introduction>
+    <p>
+        In this problem, we have the same waterwheel as in the last problem. Now we'll think about arc length and angles.
+    </p>
+</introduction>
+
+<task workspace = "4in">
+<statement>
 <p> 
 What is the arc length (measured on the edge of the wheel) that is underwater?
 </p>  
+</statement>
 </task>
 <task workspace = "4in">
-<p>
-Now suppose the wheel takes <m> 30</m> seconds to perform one full rotation. If you hang onto the edge of the wheel and ride one full rotation, how much time would you spend at least <m> 5+5\sqrt{2} </m> feet above the water?
-</p>   
-</task>
-<task workspace = "4in">
+<statement>
     <p>
         If the water is flowing at the same speed as the wheel (i.e. the water moves 1 foot in the same time it takes for the outside of the wheel to rotate <m> 1 </m> foot), how fast is the river moving (in feet per second).
     </p>
+</statement>
 </task>
 </exercise>
+
 </page>
 
 <!--exercise workspace="6in">

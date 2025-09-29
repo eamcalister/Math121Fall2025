@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--uncomment <pretext> and <article> tags at the beginning and end for standalone pdf generation-->
+<!--pretext>
+<article-->
+    <worksheet margin="1in" bottom="1.25cm" xml:id="Week9" >
+            <title>Math 121 Week 9 Activity</title>
+
+        <objectives>
+		<p>
+            In this activity we will do the following:
+        </p>
+        <ul>
+	  		<li>
+	  			<p>
+					Derive the identities for the sine and cosine of sum and differences of angles.
+	  			</p>
+	  		</li>
+            <li>
+                <p>
+                    Use these identities to find exact expressions for sines and cosines of more angles than the "special" angles.
+                </p>
+            </li>
+	  	</ul>
+    </objectives>
+            <introduction>
+                <p>
+                    In the first part of this activity we will justify a complicated identity using geometry. After that we will use our prior knowledge to derive other indeitities and do some calculations
+                </p>
+                <p>
+                    Please note, some of these questions have answers that will require you to write complete sentences in order to help you make better sense of the math you're learning. This may seem difficult at first.
+                </p>
+            </introduction>
+        <page>
+            <exercise>
+<statement>
+    <p>
+    <image>
+    <prefigure label = "angle-sum-triangle" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+  
+  <coordinates bbox="(-1,-1,5,5)">
+    <path start="(0,0)" stroke="blue" arrows="0">
+      <lineto point="(4,0)"/>
+      <lineto point="(1,4)"/>
+      <lineto point="(0,0)"/>
+    </path>
+    <path start="(0,0)" stroke="blue" arrows="0" dash="4 4">
+      <lineto point="(192/75,48/25)"/>
+    </path>
+    <path start="(1,4)" stroke="blue" arrows="0" dash="4 4">
+      <lineto point="(1,0)"/>
+    </path>
+    <angle-marker points="((4,0),(0,0),(192/75,48/25))" radius="20">
+      <m>\theta</m>
+    </angle-marker>
+    <angle-marker points="((192/75,48/25),(0,0),(1,4))" radius="25">
+      <m>\phi</m>
+    </angle-marker>
+    <angle-marker points="((1,4),(192/75,48/25),(0,0))" radius="15">
+    </angle-marker>
+    <angle-marker points="((4,0),(1,0),(1,4))" radius="15">
+    </angle-marker>
+    <label anchor="(0,0)" alignment="west">
+      <m> A </m>
+    </label>
+    <label anchor="(4,0)" alignment="east">
+      <m> B </m>
+    </label>
+    <label anchor="(1,4)" alignment="north">
+      <m> C </m>
+    </label>
+    <label anchor="(192/75,48/25)" alignment="northeast">
+      <m> D </m>
+    </label>
+    <label anchor="(2,0)" alignment="south">
+      <m>c_1 </m>
+    </label>
+    <label anchor="(.5,2)" alignment="west">
+      <m>c_2 </m>
+    </label>
+    <label anchor="(200/150,45/50)" alignment="east">
+      <m>h_1</m>
+    </label>
+    <label anchor="(1,2)" alignment="east">
+      <m>h_2</m>
+    </label>
+    <label anchor="(1.75,3)" alignment="north" rotate="-53.13">
+      <m>c_2\sin(\phi)</m>
+    </label>
+        <label anchor="(3.25,1)" alignment="north" rotate="-53.13">
+      <m>c_1\sin(\theta)</m>
+    </label>
+  </coordinates>
+</diagram>
+</prefigure>
+</image>
+    </p>
+</statement>
+    </exercise>
+    </page>
+
+
+
+</worksheet>
+<!--/article>
+</pretext-->

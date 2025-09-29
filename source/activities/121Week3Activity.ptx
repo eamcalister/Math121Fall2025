@@ -39,7 +39,7 @@
             <exercise>
                 <introduction>
                     <p>
-                         Recall that in Week 1 <xref ref="week1prob3"/> we found a formula for the exponential function passing through the points <m>(1,4)</m> and <m>(5,12)</m> by solving a system of equations. The formula was 
+                         Recall that in <xref ref="week1prob3">Week 1 Activity - Exercise</xref>  we found a formula for the exponential function passing through the points <m>(1,4)</m> and <m>(5,12)</m> by solving a system of equations. The formula was 
                          <me>
                             f(x) = \frac{4}{\sqrt[4]{3}}(\sqrt[4]{3})^x.
                          </me>
