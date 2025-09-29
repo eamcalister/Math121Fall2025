@@ -14,8 +14,8 @@
     <xi:include href="./activities/121Week2Activity.ptx"/>
     <xi:include href="./activities/121Week3Activity.ptx"/>
     <xi:include href="./activities/121Week5Activity.ptx"/>
+    <xi:include href="./activities/121Week6Activity.ptx"/>
     <xi:include href="./activities/121Week9Activity.ptx"/>
-
     <!-- Add more xi:include files here to include them in the main course -->
   </article>
 </pretext>

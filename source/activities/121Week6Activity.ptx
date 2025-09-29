@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--uncomment <pretext> and <article> tags at the beginning and end for standalone pdf generation-->
+    <!--pretext>
+        <article-->
+<worksheet margin="1in" bottom="1.25cm" xml:id="Week6" >
+    <title>Math 121 Week 6 Activity</title>
+
+        <objectives>
+		<p>
+            In this activity we will do the following:
+        </p>
+        <ul>
+	  		<li>
+	  			<p>
+					Explore the relationship between the trigonometric functions.
+	  			</p>
+	  		</li>
+            <li>
+                <p>
+                   Apply trigonometric functions to real world scenarios  
+                </p>
+            </li>
+
+	  	</ul>
+    </objectives>
+            <introduction>
+                <p>
+                  Please feel free to work together. If you get stuck, just ask and we'll get unstuck.
+                </p>
+                <p>
+                    Please note, some of these questions have answers that will require you to write complete sentences in order to help you make better sense of the math you're learning. This may seem difficult at first.
+                </p>
+            </introduction>                  
+<exercise>
+    <introduction>
+            <p>
+                    Suppose <m> P = (x,y) </m> is on the unit circle at angle <m> \theta </m> measure counterclockwise from the positive <m> x </m>-axis.
+            </p>
+    </introduction>
+    <task>
+           <p>  Express each of the following in terms of <m> x </m> and <m> y.</m>
+                       
+                         <md>
+                          <mrow> \sin(\theta) = \\
+                         
+                        \\
+                   </mrow>
+                   <mrow>
+                          \cos(\theta) = \\
+                         \\
+                   </mrow>
+                   <mrow>
+                          \tan(\theta) = \\
+                         \\
+                   </mrow>
+                   <mrow>
+                          \text{sec}(\theta) = \\
+                         \\
+                   </mrow>
+                   <mrow>
+                          \text{csc}(\theta) = \\
+                        \\
+                   </mrow>
+                   <mrow> \text{cot}(\theta) = </mrow>
+                          
+                         </md>
+                        </p>
+</task>
+</exercise>
+<page>
+<exercise> 
+    <introduction>
+            <p>
+                Recall that, if <m>(x,y) </m> is on the unit circle, then <m> x^2+y^2 =1 </m>
+            </p>
+        </introduction>
+    <task workspace ="4in">
+        <p> 
+Now, suppose <m> \theta </m> satisfies <m> \sin(\theta) = 1/3 </m> and is in the first quadrant. Find the values of the values of the other 5 trig functions at <m> \theta .</m>
+        </p>
+    </task> 
+    
+    <task workspace ="4in">
+        <p>
+          Next suppose <m> \theta </m> satisfies <m> \cos(\theta) = - 2/3 </m> and is in the second quadrant. Find the slope of the line at angle <m> \theta </m> from the positive <m> x </m>- axis.  
+        </p>
+    </task>
+</exercise> 
+</page>
+<page>
+<exercise> 
+    <introduction>
+            <p>
+               Recall that <m> y = \tan(\theta) </m> has period <m> \pi </m> and vertical asymptotes at <m> x= -\frac{\pi}{2}, \frac{\pi}{2}, \frac{3 \pi}{2},\ldots</m>
+            </p>
+        </introduction>
+    <task workspace ="2in">
+        <p> 
+By transforming <m> y= \tan(\theta), </m> write the equation for a periodic function that has vertical asymptotes at <m> x=-\pi, x=\pi, x=2\pi. </m>
+        </p>
+    </task> 
+    
+    <task workspace ="4in">
+        <p>
+          Now write the equation of a periodic function with asymptotes at <m> x=-2\pi, x=0,x=2\pi, x= 4\pi </m> and sketch the graph of this function. What is its period? 
+        </p>
+    </task>
+</exercise> 
+</page>
+<page>
+<exercise> 
+    <introduction>
+            <p>
+              Recall that <m> \cot(\theta) = \frac{1}{\tan(\theta)}, \: \sec(\theta) = \frac{1}{\cos(\theta)},\: </m> and <m> \csc(\theta) =\frac{1}{\sin (\theta)} .</m>
+            </p>
+        </introduction>
+    <task workspace ="2in">
+        <p> 
+What are the periods of these three functions?
+        </p>
+    </task> 
+    
+    <task workspace ="4in">
+        <p>
+          Suppose <m> f </m> is a function with period <m> p.</m> Based on the above, make a conjecture about the period of <m> g(x) = \frac{1}{f(x)}, \: \: f(x) \neq 0. </m> Can you show why your conjecture must be true?
+        </p>
+    </task>
+</exercise> 
+</page>
+</worksheet>
+<!--page>
+<exercise>
+   <introduction>
+    <p>
+        Suppose you ski down a slope at a fixed angle and you drop 2000 feet as you travel 4000 feet.
+    </p>
+   </introduction> 
+<task workspace = "2in">
+<p>
+    What is the angle of the slope from horizontal?
+</p>
+</task>
+<task workspace = "2in">
+<p> 
+How steep is the line from where you finished to where you start?
+</p>  
+</task>
+<task workspace = "4in">
+<p>
+If you travel at 20 feet per second, how quickly are you losing elevation? 
+</p>   
+</task>
+<task workspace = "3in">
+    <p>
+    If someone viewed you from above and could not see your elevation changes, how quickly would it appear that you were moving? (i.e. how quickly are you moving in the horizontal direction?)
+    </p>
+</task>
+</exercise>
+</page-->
+
+<!--exercise workspace="6in">
+    <introduction>
+        <p>
+         Now, suppose a carousel has two rings of horses. The inner ring is <m> 2 </m> meters from the center and the outer ring is <m> 4 </m> meters from the center and each ring of horses moves up and down synchronously.   
+        </p>
+    </introduction>
+    <task workspace="3in">
+        <statement>
+            <p>
+                What angle (in radians) must an inner ring horse traverse to travel <m> 8</m> meters (in the horizontal plane)? How far does an outer ring horse travel across this same angle?
+            </p>
+            <p>
+                 Suppose the height (in meters) of an outer ring horse (as it bobs up and down) is given by <m>O(\theta) = 1-\cos(\theta)</m> where <m>\theta</m> is the angle the carousel has rotated from the starting position. Sketch a graph of <m> O(\theta).</m>
+            </p>
+            <p> Now, if the height function for an inner ring horse has the same amplitude, midline, and period as the height function for the outer ring horse, but an inner ring horse is at the bottom when an outer ring horse is at the top (and vice versa), write an equation <m>I(\theta),</m> for a graph of the height of an inner ring horse and sketch a graph of <m>I(\theta).</m> </p>
+        <p>
+             If the carousel stops halfway around its rotation, what height are the inner ring horses at and what height are the outer ones at? What if the carousel stops <m> 3/8 </m> of the way around? <m> 2/3 </m> of the way around?
+        </p>
+        </statement>
+    </task>
+</exercise-->
+
+
+<!--/article>
+</pretext-->
