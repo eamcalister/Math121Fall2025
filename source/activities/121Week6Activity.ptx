@@ -102,7 +102,7 @@
     <task workspace ="2in">
         <statement>
         <p> 
-Is there an interval centered at 0, <m> -a < x < a  </m> for some <m> a > 0,</m> such that <m> \tan </m> attains every value in its range on <m> -a < x  < a</m>? What is <m> a </m>?
+Is there an interval centered at 0, <m> -a &lt; x &lt; a  </m> for some <m> a &gt; 0,</m> such that <m> \tan </m> attains every value in its range on <m> -a &lt; x  &lt; a</m>? What is <m> a </m>?
         </p>
     </statement>
     </task> 
