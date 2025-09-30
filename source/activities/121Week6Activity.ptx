@@ -12,12 +12,12 @@
         <ul>
 	  		<li>
 	  			<p>
-					Explore the relationship between the trigonometric functions.
+					Explore the idea of inverses to our trigonometric functions
 	  			</p>
 	  		</li>
             <li>
                 <p>
-                   Apply trigonometric functions to real world scenarios  
+                   Use inverses to solve trigonometric functions 
                 </p>
             </li>
 
@@ -34,56 +34,61 @@
 <exercise>
     <introduction>
             <p>
-                    Suppose <m> P = (x,y) </m> is on the unit circle at angle <m> \theta </m> measure counterclockwise from the positive <m> x </m>-axis.
+                Recall the notion of an <term> inverse function </term> , <m>f^{-1} </m> to a function <m> f </m>:    
             </p>
-    </introduction>
-    <task>
-           <p>  Express each of the following in terms of <m> x </m> and <m> y.</m>
-                       
-                         <md>
-                          <mrow> \sin(\theta) = \\
-                         
-                        \\
-                   </mrow>
-                   <mrow>
-                          \cos(\theta) = \\
-                         \\
-                   </mrow>
-                   <mrow>
-                          \tan(\theta) = \\
-                         \\
-                   </mrow>
-                   <mrow>
-                          \text{sec}(\theta) = \\
-                         \\
-                   </mrow>
-                   <mrow>
-                          \text{csc}(\theta) = \\
-                        \\
-                   </mrow>
-                   <mrow> \text{cot}(\theta) = </mrow>
-                          
-                         </md>
-                        </p>
+            <p>
+                The function <m>f^{-1} </m> is defined, for <m> x </m> in the range of <m> f,</m> by <m> f^{-1}(x) = y </m> if <m>f(y) =x .</m> 
+            </p>
+            <p> 
+                We can find <m> f^{-1} </m> from <m> f </m> by solving for <m> x </m> in terms of <m> y</m> and then swapping <m> x </m> and <m> y  .</m>
+        </p>
+        </introduction>
+    <task workspace = "4in">
+        <statement>
+           <p> 
+                Let <m> f(x) = (3x-2)^{\frac{1}{3}} .</m> Find <m> f^{-1}(x) .</m> What <m> x </m> is this formula valid for?
+           </p>
+        </statement>
 </task>
 </exercise>
 <page>
 <exercise> 
     <introduction>
             <p>
-                Recall that, if <m>(x,y) </m> is on the unit circle, then <m> x^2+y^2 =1 </m>
+               Suppose we want to find the inverse of <m> y = \sin(\theta).</m>
             </p>
         </introduction>
-    <task workspace ="4in">
+    <task workspace ="2in">
+        <statement>
         <p> 
-Now, suppose <m> \theta </m> satisfies <m> \sin(\theta) = 1/3 </m> and is in the first quadrant. Find the values of the values of the other 5 trig functions at <m> \theta .</m>
+ We need to define <m> \sin^{-1}(\frac{1}{2}) .</m> What value(s) of <m> \theta </m> satisfy <m> \sin(\theta) = \frac{1}{2} .</m>
         </p>
+    </statement>
     </task> 
     
-    <task workspace ="4in">
+    <task workspace ="2in">
+        <statement>
         <p>
-          Next suppose <m> \theta </m> satisfies <m> \cos(\theta) = - 2/3 </m> and is in the second quadrant. Find the slope of the line at angle <m> \theta </m> from the positive <m> x </m>- axis.  
+          For <m> \sin^{-1} </m> to be a function, can there be two distinct values <m> y_1 </m> and <m> y_2</m> such that <m> y_1 = \sin^{-1}(\frac{1}{2}) </m> and <m> y_2 = \sin^{-1}(\frac{1}{2}) </m> but <m> y_1 \neq y_2 </m>?
         </p>
+    </statement>
+    </task>
+    
+    <task workspace="2in">    
+        <statement>
+                <p>
+             We want to pick an interval in the domain of <m> \sin </m> such that, on that interval, <m> \sin </m> attains every value in its range exactly once. Then we will define <m>\sin^{-1} </m> to be the inverse of <m> \sin </m> on this interval.
+                If we want an interval centered at 0, i.e. <m> -a \leq x \leq a  </m> for some <m> a > 0,</m> and such that <m> \sin </m> attains every value between <m>-1 </m> and <m> 1 </m> on <m> -a \leq x  \leq a,</m> what must we choose <m> a </m> to be?    
+                </p>
+            </statement>
+    </task>
+    
+    <task workspace = "2in">
+        <statement>
+        <p>
+        If <m> \sin^{-1} </m> is the inverse of <m> \sin </m> on this interval, what is the range of <m> \sin^{-1} </m>? What is the domain?
+    </p>
+</statement>
     </task>
 </exercise> 
 </page>
@@ -91,19 +96,23 @@ Now, suppose <m> \theta </m> satisfies <m> \sin(\theta) = 1/3 </m> and is in the
 <exercise> 
     <introduction>
             <p>
-               Recall that <m> y = \tan(\theta) </m> has period <m> \pi </m> and vertical asymptotes at <m> x= -\frac{\pi}{2}, \frac{\pi}{2}, \frac{3 \pi}{2},\ldots</m>
+       We also want to define <m> \cos^{-1} </m> and <m> \tan^{-1} </m>       
             </p>
         </introduction>
     <task workspace ="2in">
+        <statement>
         <p> 
-By transforming <m> y= \tan(\theta), </m> write the equation for a periodic function that has vertical asymptotes at <m> x=-\pi, x=\pi, x=2\pi. </m>
+Is there an interval centered at 0, <m> -a < x < a  </m> for some <m> a > 0,</m> such that <m> \tan </m> attains every value in its range on <m> -a < x  < a</m>? What is <m> a </m>?
         </p>
+    </statement>
     </task> 
     
-    <task workspace ="4in">
+    <task workspace ="3in">
+        <statement>
         <p>
-          Now write the equation of a periodic function with asymptotes at <m> x=-2\pi, x=0,x=2\pi, x= 4\pi </m> and sketch the graph of this function. What is its period? 
+          Using the above, what are the domain and range of <m> \tan^{-1} </m>?
         </p>
+    </statement>
     </task>
 </exercise> 
 </page>
@@ -111,19 +120,30 @@ By transforming <m> y= \tan(\theta), </m> write the equation for a periodic func
 <exercise> 
     <introduction>
             <p>
-              Recall that <m> \cot(\theta) = \frac{1}{\tan(\theta)}, \: \sec(\theta) = \frac{1}{\cos(\theta)},\: </m> and <m> \csc(\theta) =\frac{1}{\sin (\theta)} .</m>
+            Recall that <m> \cos(-\theta) = \cos (\theta) </m>  
             </p>
         </introduction>
     <task workspace ="2in">
+        <statement>
         <p> 
-What are the periods of these three functions?
+Given this, is there an interval centered at 0 on which <m> \cos </m> attains every value in its range exactly once?
         </p>
+    </statement>
     </task> 
     
-    <task workspace ="4in">
+    <task workspace ="2in">
+        <statement>
         <p>
-          Suppose <m> f </m> is a function with period <m> p.</m> Based on the above, make a conjecture about the period of <m> g(x) = \frac{1}{f(x)}, \: \: f(x) \neq 0. </m> Can you show why your conjecture must be true?
+         What if the interval is centered at <m> \frac{\pi}{2} </m>?
         </p>
+    </statement>
+    </task>
+    <task workspace ="2in">
+        <statement>
+        <p>
+         What are the domain and range of <m> \cos^{-1} </m>?
+        </p>
+    </statement>
     </task>
 </exercise> 
 </page>
