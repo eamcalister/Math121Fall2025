@@ -61,7 +61,7 @@
 <exercise>
    <introduction>
     <p>
-        Suppose you ride an escalator that's moving at 5 feet per second. The escalator is 50 feet tall and takes 20 seconds to ride from bottom to top.
+        Suppose you ride an escalator that is moving at 5 feet per second. The escalator is 50 feet tall and takes 20 seconds to ride from bottom to top.
     </p>
    </introduction> 
    <task workspace = "2in">
@@ -93,7 +93,7 @@ How many horizontal feet does the escalator traverse per second?
 <exercise>
    <introduction>
     <p>
-        Suppose you ski down a slope at a fixed angle and you drop 2000 feet as you travel 4000 feet.
+        Suppose you ski down a slope at a fixed angle that drops 1000 feet over a horizontal displacement of 3500 feet.
     </p>
    </introduction> 
 <task workspace = "2in">
@@ -103,12 +103,12 @@ How many horizontal feet does the escalator traverse per second?
 </task>
 <task workspace = "4in">
 <p>
-If you travel at <m>20 </m> feet per second, how quickly are you losing elevation? 
+If satellite data measures your horizontal speed to be <m>25 </m> feet per second, how quickly are you moving across the snow? 
 </p>   
 </task>
 <task workspace = "3in">
     <p>
-    If someone viewed you from above and could not see your elevation changes, how quickly would it appear that you were moving? (i.e. how quickly are you moving in the horizontal direction?)
+   At the speed from part b, how quickly are you losing elevation?
     </p>
 </task>
 </exercise>
