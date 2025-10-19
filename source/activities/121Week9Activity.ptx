@@ -12,31 +12,76 @@
         <ul>
 	  		<li>
 	  			<p>
-					Derive the identities for the sine and cosine of sum and differences of angles.
+					Use new identities to find exact expressions for sines and cosines of more angles than the "special" angles.
 	  			</p>
 	  		</li>
             <li>
                 <p>
-                    Use these identities to find exact expressions for sines and cosines of more angles than the "special" angles.
+                    Justify one identity using geometry, then deduce further identities using the one we justified.
                 </p>
             </li>
 	  	</ul>
     </objectives>
             <introduction>
                 <p>
-                    In the first part of this activity we will justify a complicated identity using geometry. After that we will use our prior knowledge to derive other indeitities and do some calculations
-                </p>
-                <p>
                     Please note, some of these questions have answers that will require you to write complete sentences in order to help you make better sense of the math you're learning. This may seem difficult at first.
                 </p>
             </introduction>
-        <page>
-            <exercise>
-<statement>
+        
+<page>
+<paragraphs xml:id="angle-sum-identities">
+  <title>The Angle Sum Identities</title>
     <p>
+      If <m>\theta</m> and <m>\phi</m> are angles, then we have
+      <md>
+        <mrow>\sin(\theta+\phi) \amp = \sin(\theta)\cos(\phi) + \cos(\theta)\sin(\phi) </mrow>
+        <mrow>\sin(\theta-\phi) \amp = \sin(\theta)\cos(\phi) - \cos(\theta)\sin(\phi) </mrow>
+        <mrow>\cos(\theta+\phi)\amp = \cos(\theta)\cos(\phi) - \sin(\theta)\sin(\phi)  </mrow>
+        <mrow>\cos(\theta-\phi)\amp = \cos(\theta)\cos(\phi) + \sin(\theta)\sin(\phi)  </mrow>
+      </md>
+    </p>
+</paragraphs>
+
+<exercise>
+  <introduction>
+    <p>
+      Let's warm up by using these identities. Use identities and the exact values of <m>\sin(\theta)</m> and <m>\cos(\theta)</m> for <m>\theta = \frac{\pi}{6} = \frac{2\pi}{12}</m>, <m>\frac{\pi}{3} = \frac{4\pi}{12}</m>, and <m>\frac{\pi}{4} = \frac{3\pi}{12}</m> to find the following:
+    </p>
+  </introduction>
+  <task workspace="1in">
+    <statement>
+      <p>
+        <m>\sin\left(\frac{5\pi}{12}\right)</m>
+      </p>
+    </statement>
+  </task>
+    <task workspace="1in">
+    <statement>
+      <p>
+        <m>\sin\left(\frac{\pi}{12}\right)</m>
+      </p>
+    </statement>
+  </task>
+    <task workspace="1in">
+    <statement>
+      <p>
+        <m>\cos\left(\frac{7\pi}{12}\right)</m>
+      </p>
+    </statement>
+  </task>
+
+</exercise>
+
+</page>
+<page>
+
+<exercise>
+<introduction>
+    <p>
+     Now we will justify the identity <me>\sin(\theta + \phi)  =  \sin(\theta)\cos(\phi)+\cos(\theta)\sin(\phi)</me> using geometry. Consider the following diagram:
     <image>
     <prefigure label = "angle-sum-triangle" xmlns="https://prefigure.org">
-        <diagram dimensions="(500,500)" margins="5">
+        <diagram dimensions="(500,500)" margins="(250,0,250,0)">
   
   <coordinates bbox="(-1,-1,5,5)">
     <path start="(0,0)" stroke="blue" arrows="0">
@@ -95,9 +140,80 @@
 </prefigure>
 </image>
     </p>
-</statement>
-    </exercise>
+  </introduction>
+<task workspace="1in">
+  <statement>
+    <p>
+      Find <m>h_1</m> in terms of and <m>c_2</m> and <m>\phi</m>. Then use your expression to find the area of <m>\triangle{ADB}</m>.
+    </p>
+  </statement>
+</task>
+<task workspace="1in">
+  <statement>
+    <p>
+      Find <m>h_1</m> in terms of and <m>c_1</m> and <m>\theta</m>. Then use your expression to find the area of <m>\triangle{ADC}</m>.
+    </p>
+  </statement>
+</task>
+<task workspace="1in">
+  <statement>
+    <p>
+      Find <m>h_2</m> in terms of <m>c_2</m> and <m>\theta+\phi</m>. Then use your expression to find the area of the whole big triangle.
+    </p>
+  </statement>
+</task>
+<task workspace="1in">
+  <statement>
+    <p>
+      Finally, notice that the whole big triangle has an area equal to the sum of the two smaller triangles. Write that as an equation using parts (a)-(c) to deduce our identity.
+    </p>
+  </statement>
+</task>
+
+
+</exercise>
     </page>
+
+<page>
+<exercise workspace="3in">
+<statement>
+  <p>
+    Use the identities
+    <md>
+      <mrow> \cos(\phi) \amp = \sin\left(\phi + \frac{\pi}{2}\right) </mrow>
+      <mrow> -\cos(\phi) \amp = \cos\left(\phi + \frac{\pi}{2}\right) </mrow>
+      <mrow> \sin(\theta + \phi) \amp =  \sin(\theta)\cos(\phi)+\cos(\theta)\sin(\phi) </mrow>
+    </md>
+    to derive the identity
+    <me>
+      \cos(\theta + \phi)  =  \cos(\theta)\cos(\phi)-\sin(\theta)\sin(\phi)
+    </me>
+    
+  </p>
+</statement>  
+
+</exercise>  
+
+<exercise workspace="3in">
+  <statement>
+    <p>
+      Use the identities
+      <md>
+        <mrow>\cos(\theta+\phi)\amp = \cos(\theta)\cos(\phi) - \sin(\theta)\sin(\phi)  </mrow>
+        <mrow>\cos(\theta-\phi)\amp = \cos(\theta)\cos(\phi) + \sin(\theta)\sin(\phi)  </mrow>
+      </md>
+      to show that
+      <me>
+        \cos(\theta + \phi) + \cos(\theta - \phi) = 2\cos(\theta)\cos(\phi).
+      </me>
+      
+      </p>
+  </statement>
+</exercise>
+
+
+
+</page>
 
 
 
