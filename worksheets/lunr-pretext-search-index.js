@@ -340,7 +340,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Math 121 Week 9 Activity",
-  "body": " Math 121 Week 9 Activity   In this activity we will do the following:    Derive the identities for the sine and cosine of sum and differences of angles.    Use these identities to find exact expressions for sines and cosines of more angles than the \"special\" angles.      In the first part of this activity we will justify a complicated identity using geometry. After that we will use our prior knowledge to derive other indeitities and do some calculations  Please note, some of these questions have answers that will require you to write complete sentences in order to help you make better sense of the math you're learning. This may seem difficult at first.                       \\theta    \\phi        A    B    C    D    c_1    c_2    h_1    h_2    c_2\\sin(\\phi)    c_1\\sin(\\theta)           "
+  "body": " Math 121 Week 9 Activity   In this activity we will do the following:    Use new identities to find exact expressions for sines and cosines of more angles than the \"special\" angles.    Justify one identity using geometry, then deduce further identities using the one we justified.      Please note, some of these questions have answers that will require you to write complete sentences in order to help you make better sense of the math you're learning. This may seem difficult at first.     The Angle Sum Identities  If and are angles, then we have      Let's warm up by using these identities. Use identities and the exact values of and for , , and to find the following:      ( Hint: Convert the first quadrant special angles to all have as the denominator to see how is a sum of two of them.)                       Now we will justify the identity using geometry.      In the diagram to the right, use right triangle trigonometry to find in terms of and . Then use your expression to find the area of in terms of , , , and . (Recall the area of a triangle is , where is the length of the base and is the height.)                  \\theta    \\phi        A    B    C    D    c_1    c_2    h_1    h_2    c_2\\sin(\\phi)    c_1\\sin(\\theta)            Use right triangle trigonometry to find in terms of and . Then use your expression to find the area of in terms of , , , and .      Find in terms of and . Then use your expression to find the area of the whole big triangle.      Finally, notice that the whole big triangle has an area equal to the sum of the two smaller triangles. Write that as an equation using parts (a)-(c) to deduce our identity.          Use the identity with to derive the double-angle identity for sine:       Use the identities to show that Then let to derive the double angle identity      "
 },
 {
   "id": "Week9-2",
@@ -349,16 +349,43 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "",
   "title": "",
-  "body": " In this activity we will do the following:    Derive the identities for the sine and cosine of sum and differences of angles.    Use these identities to find exact expressions for sines and cosines of more angles than the \"special\" angles.    "
+  "body": " In this activity we will do the following:    Use new identities to find exact expressions for sines and cosines of more angles than the \"special\" angles.    Justify one identity using geometry, then deduce further identities using the one we justified.    "
 },
 {
-  "id": "Week9-4-1",
+  "id": "Week9-4-2",
   "level": "2",
-  "url": "Week9.html#Week9-4-1",
+  "url": "Week9.html#Week9-4-2",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "                   \\theta    \\phi        A    B    C    D    c_1    c_2    h_1    h_2    c_2\\sin(\\phi)    c_1\\sin(\\theta)         "
+  "body": "  Let's warm up by using these identities. Use identities and the exact values of and for , , and to find the following:      ( Hint: Convert the first quadrant special angles to all have as the denominator to see how is a sum of two of them.)                  "
+},
+{
+  "id": "Week9-5-1",
+  "level": "2",
+  "url": "Week9.html#Week9-5-1",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Now we will justify the identity using geometry.      In the diagram to the right, use right triangle trigonometry to find in terms of and . Then use your expression to find the area of in terms of , , , and . (Recall the area of a triangle is , where is the length of the base and is the height.)                  \\theta    \\phi        A    B    C    D    c_1    c_2    h_1    h_2    c_2\\sin(\\phi)    c_1\\sin(\\theta)            Use right triangle trigonometry to find in terms of and . Then use your expression to find the area of in terms of , , , and .      Find in terms of and . Then use your expression to find the area of the whole big triangle.      Finally, notice that the whole big triangle has an area equal to the sum of the two smaller triangles. Write that as an equation using parts (a)-(c) to deduce our identity.    "
+},
+{
+  "id": "Week9-6-1",
+  "level": "2",
+  "url": "Week9.html#Week9-6-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Use the identity with to derive the double-angle identity for sine:    "
+},
+{
+  "id": "Week9-6-2",
+  "level": "2",
+  "url": "Week9.html#Week9-6-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Use the identities to show that Then let to derive the double angle identity    "
 }
 ]
 
