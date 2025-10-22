@@ -45,13 +45,13 @@
 <exercise>
   <introduction>
     <p>
-      Let's warm up by using these identities. Use identities and the exact values of <m>\sin(\theta)</m> and <m>\cos(\theta)</m> for <m>\theta = \frac{\pi}{6} = \frac{2\pi}{12}</m>, <m>\frac{\pi}{3} = \frac{4\pi}{12}</m>, and <m>\frac{\pi}{4} = \frac{3\pi}{12}</m> to find the following:
+      Let's warm up by using these identities. Use identities and the exact values of <m>\sin(\theta)</m> and <m>\cos(\theta)</m> for <m>\theta = \frac{\pi}{6}</m>, <m>\frac{\pi}{4}</m>, and <m>\frac{\pi}{3}</m> to find the following:
     </p>
   </introduction>
   <task workspace="1in">
     <statement>
       <p>
-        <m>\sin\left(\frac{5\pi}{12}\right)</m>
+        <m>\sin\left(\frac{5\pi}{12}\right)</m> (<em>Hint:</em> Convert the first quadrant special angles to all have <m>12</m> as the denominator to see how <m>\frac{5\pi}{12}</m> is a sum of two of them.)
       </p>
     </statement>
   </task>
@@ -77,11 +77,22 @@
 
 <exercise>
 <introduction>
-    <p>
-     Now we will justify the identity <me>\sin(\theta + \phi)  =  \sin(\theta)\cos(\phi)+\cos(\theta)\sin(\phi)</me> using geometry. Consider the following diagram:
+  <p>
+            Now we will justify the identity <me>\sin(\theta + \phi)  =  \sin(\theta)\cos(\phi)+\cos(\theta)\sin(\phi)</me> using geometry.
+  </p> 
+
+
+  </introduction>
+<task>
+  <statement>
+     <sidebyside widths="45% 55%">
+      <p>
+        In the diagram to the right, use right triangle trigonometry to find <m>h_1</m> in terms of <m>c_2</m> and <m>\phi</m>. Then use your expression to find the area of <m>\triangle{ADB}</m> in terms of <m>c_1</m>, <m>c_2</m>, <m>\theta</m>, and <m>\phi</m>. (Recall the area of a triangle is <m>A = \frac{1}{2}bh</m>, where <m>b</m> is the length of the base and <m>h</m> is the height.)
+      </p>
+      
     <image>
     <prefigure label = "angle-sum-triangle" xmlns="https://prefigure.org">
-        <diagram dimensions="(500,500)" margins="(250,0,250,0)">
+        <diagram dimensions="(300,300)" margins="(50,0,50,0)">
   
   <coordinates bbox="(-1,-1,5,5)">
     <path start="(0,0)" stroke="blue" arrows="0">
@@ -139,19 +150,15 @@
 </diagram>
 </prefigure>
 </image>
-    </p>
-  </introduction>
-<task workspace="1in">
-  <statement>
-    <p>
-      Find <m>h_1</m> in terms of and <m>c_2</m> and <m>\phi</m>. Then use your expression to find the area of <m>\triangle{ADB}</m>.
-    </p>
+
+
+     </sidebyside>
   </statement>
 </task>
 <task workspace="1in">
   <statement>
     <p>
-      Find <m>h_1</m> in terms of and <m>c_1</m> and <m>\theta</m>. Then use your expression to find the area of <m>\triangle{ADC}</m>.
+      Use right triangle trigonometry to find <m>h_1</m> in terms of <m>c_1</m> and <m>\theta</m>. Then use your expression to find the area of <m>\triangle{ADC}</m> in terms of <m>c_1</m>, <m>c_2</m>, <m>\theta</m>, and <m>\phi</m>.
     </p>
   </statement>
 </task>
@@ -175,7 +182,7 @@
     </page>
 
 <page>
-<exercise workspace="3in">
+<!--exercise workspace="3in">
 <statement>
   <p>
     Use the identities
@@ -186,13 +193,30 @@
     </md>
     to derive the identity
     <me>
-      \cos(\theta + \phi)  =  \cos(\theta)\cos(\phi)-\sin(\theta)\sin(\phi)
+      \cos(\theta + \phi)  =  \cos(\theta)\cos(\phi)-\sin(\theta)\sin(\phi).
     </me>
     
   </p>
 </statement>  
 
-</exercise>  
+</exercise-->
+
+<exercise workspace="3in">
+  <statement>
+    <p>
+      Use the identity
+      <me>
+        \sin(\theta + \phi)  =  \sin(\theta)\cos(\phi)+\cos(\theta)\sin(\phi)
+      </me>
+      with <m>\phi = \theta</m> to derive the double-angle identity for sine:
+      <me>
+        \sin(2\theta) = 2\sin(\theta)\cos(\theta).
+      </me>
+      
+    </p>
+  </statement>
+</exercise>
+
 
 <exercise workspace="3in">
   <statement>
@@ -205,6 +229,10 @@
       to show that
       <me>
         \cos(\theta + \phi) + \cos(\theta - \phi) = 2\cos(\theta)\cos(\phi).
+      </me>
+      Then let <m>\phi = \theta</m> to derive the double angle identity
+      <me>
+        \cos(2\theta) = 2\cos^2(\theta) -1.
       </me>
       
       </p>
