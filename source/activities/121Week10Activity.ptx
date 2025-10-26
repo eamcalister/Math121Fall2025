@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--uncomment <pretext> and <article> tags at the beginning and end for standalone pdf generation-->
+<!--pretext>
+<article-->
+    <worksheet margin="1in" bottom="1.25cm" xml:id="Week10" >
+            <title>Math 121 Week 10 Activity</title>
+
+        <objectives>
+		<p>
+            In this activity we will do the following:
+        </p>
+        <ul>
+	  		<li>
+	  			<p>
+					Translate between rectangular graphs in the <m>r\theta</m>-plane to polar graphs in the <m>xy</m>-plane.
+	  			</p>
+	  		</li>
+            <li>
+                <p>
+                    See how some cool polar graphs are generated.
+                </p>
+            </li>
+	  	</ul>
+    </objectives>
+            <introduction>
+                <p>
+                    Please note, some of these questions have answers that will require you to write complete sentences in order to help you make better sense of the math you're learning. This may seem difficult at first.
+                </p>
+            </introduction>
+        
+<page>
+
+<exercise>
+<introduction>
+<!--No Loops-->
+  <p>
+    <m>r = 1+\cos(4\theta)</m>
+  </p> 
+
+
+  </introduction>
+
+<task workspace="1in">
+  <statement>
+        <image>
+    <prefigure label = "rect-axes1" xmlns="https://prefigure.org">
+<diagram dimensions="(300,300)" margins="5"
+         xmlns="https://prefigure.org">
+  <coordinates bbox="(-1,-6,8,6)">
+    <grid-axes
+               h-pi-format="yes" 
+               spacings="((0,pi/8,3*pi),(-5,.5,5))"
+          />
+  </coordinates>
+</diagram>
+</prefigure>
+</image>
+  </statement>
+</task>
+
+<task workspace="1in">
+  <statement>
+        <image>
+    <prefigure label = "polar-axes1" xmlns="https://prefigure.org">
+<diagram dimensions="(300,300)" margins="5"
+         xmlns="https://prefigure.org">
+  <coordinates bbox="(-6,-6,6,6)">
+    <grid-axes coordinates="polar"
+               clear-background="no" spacing-degrees="yes" spacings="((0,1,9),(0,22.5,360))"
+               hticks="(-5,1,5)" vticks="(-5,1,5)"
+          />
+  </coordinates>
+</diagram>
+</prefigure>
+</image>
+  </statement>
+</task>
+
+
+
+</exercise>
+
+
+
+</page>
+<page>
+
+<exercise>
+<introduction>
+<!--Loops-->
+  <p>
+    <m>r = \cos(4\theta)</m>
+  </p> 
+
+
+  </introduction>
+
+<task workspace="1in">
+  <statement>
+        <image>
+    <prefigure label = "rect-axes2" xmlns="https://prefigure.org">
+<diagram dimensions="(300,300)" margins="5"
+         xmlns="https://prefigure.org">
+  <coordinates bbox="(-1,-6,8,6)">
+    <grid-axes
+               h-pi-format="yes" 
+               spacings="((0,pi/8,3*pi),(-5,.5,5))"
+          />
+  </coordinates>
+</diagram>
+</prefigure>
+</image>
+  </statement>
+</task>
+
+<task workspace="1in">
+  <statement>
+        <image>
+    <prefigure label = "polar-axes2" xmlns="https://prefigure.org">
+<diagram dimensions="(300,300)" margins="5"
+         xmlns="https://prefigure.org">
+  <coordinates bbox="(-6,-6,6,6)">
+    <grid-axes coordinates="polar"
+               clear-background="no" spacing-degrees="yes" spacings="((0,1,9),(0,22.5,360))"
+               hticks="(-5,1,5)" vticks="(-5,1,5)"
+          />
+  </coordinates>
+</diagram>
+</prefigure>
+</image>
+  </statement>
+</task>
+
+
+
+</exercise>
+    </page>
+
+
+
+
+</worksheet>
+<!--/article>
+</pretext-->
