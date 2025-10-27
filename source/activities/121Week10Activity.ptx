@@ -26,7 +26,13 @@
                 <p>
                     Please note, some of these questions have answers that will require you to write complete sentences in order to help you make better sense of the math you're learning. This may seem difficult at first.
                 </p>
+                <p>
+                  For all the graphs in this activity, please graph precisely. If you don't, your graphs will not resemble what they're supposed to look like.
+                </p>
             </introduction>
+<page>
+  
+</page>
         
 <page>
 
@@ -34,40 +40,47 @@
 <introduction>
 <!--No Loops-->
   <p>
-    <m>r = 1+\cos(4\theta)</m>
+    Consider the <m>r = 2+\cos(4\theta)</m>. We wish to graph this polar equation by first graphing this sinusoidal function in the <m>r\theta</m>-plane.
   </p> 
+</introduction>
 
-
-  </introduction>
-
-<task workspace="1in">
+<task>
   <statement>
-        <image>
-    <prefigure label = "rect-axes1" xmlns="https://prefigure.org">
-<diagram dimensions="(300,300)" margins="5"
+
+<p>
+  Graph <m>r</m> as a function of <m>\theta</m> in the axes provided for <m>0\leq\theta \leq 2\pi</m>. Clearly indicate the the maxes, mins, and midline in your graph.
+</p>
+<image>
+<prefigure label = "rect-axes1" xmlns="https://prefigure.org">
+<diagram dimensions="(500,300)" margins="(75,5,75,5)"
          xmlns="https://prefigure.org">
-  <coordinates bbox="(-1,-6,8,6)">
-    <grid-axes
-               h-pi-format="yes" 
-               spacings="((0,pi/8,3*pi),(-5,.5,5))"
-          />
+  <coordinates bbox="(-2,-.5,8,2)">
+  <grid-axes xlabel="\theta" ylabel="r"
+    h-pi-format="yes" 
+    spacings="((0,pi/8,3*pi),(-5,.5,5))"
+  />
   </coordinates>
 </diagram>
 </prefigure>
 </image>
+
+
   </statement>
 </task>
 
-<task workspace="1in">
+<task>
   <statement>
+  <p>
+    Now use the previous part to graph the equation in polar coordinates. Be sure to draw in the midline and indicate maximal and minimal displacements from <m>(0,0)</m> that coincide with your graph above.
+  </p>
         <image>
     <prefigure label = "polar-axes1" xmlns="https://prefigure.org">
-<diagram dimensions="(300,300)" margins="5"
+<diagram dimensions="(300,300)" margins="(75,0,75,0)"
          xmlns="https://prefigure.org">
-  <coordinates bbox="(-6,-6,6,6)">
-    <grid-axes coordinates="polar"
+  <coordinates bbox="(-4,-4,4,4)">
+    <grid-axes coordinates="polar" xlabel="x" ylabel="y"
                clear-background="no" spacing-degrees="yes" spacings="((0,1,9),(0,22.5,360))"
-               hticks="(-5,1,5)" vticks="(-5,1,5)"
+               hticks="(-4,1,4)" vticks="(-4,1,4)"
           />
   </coordinates>
 </diagram>
@@ -87,42 +100,49 @@
 
 <exercise>
 <introduction>
-<!--Loops-->
+<!--No Loops-->
   <p>
-    <m>r = \cos(4\theta)</m>
+    Consider the <m>r = \cos(2\theta)</m>. We wish to graph this polar equation by first graphing this sinusoidal function in the <m>r\theta</m>-plane.
   </p> 
+</introduction>
 
-
-  </introduction>
-
-<task workspace="1in">
+<task>
   <statement>
-        <image>
-    <prefigure label = "rect-axes2" xmlns="https://prefigure.org">
-<diagram dimensions="(300,300)" margins="5"
+
+<p>
+  Graph <m>r</m> as a function of <m>\theta</m> in the axes provided for <m>0\leq\theta \leq 2\pi</m>. Clearly indicate the the maxes, mins, and midline in your graph.
+</p>
+<image>
+<prefigure label = "rect-axes2" xmlns="https://prefigure.org">
+<diagram dimensions="(500,300)" margins="(75,5,75,5)"
          xmlns="https://prefigure.org">
-  <coordinates bbox="(-1,-6,8,6)">
-    <grid-axes
-               h-pi-format="yes" 
-               spacings="((0,pi/8,3*pi),(-5,.5,5))"
-          />
+  <coordinates bbox="(-1,-2,8,2)">
+  <grid-axes xlabel="\theta" ylabel="r"
+    h-pi-format="yes" 
+    spacings="((-.5,pi/8,3*pi),(-5,.5,5))"
+  />
   </coordinates>
 </diagram>
 </prefigure>
 </image>
+
+
   </statement>
 </task>
 
-<task workspace="1in">
+<task>
   <statement>
+  <p>
+    Now use the previous part to graph the equation in polar coordinates. Be sure to draw in the midline and indicate maximal and minimal displacements from <m>(0,0)</m> that coincide with your graph above.
+  </p>
         <image>
     <prefigure label = "polar-axes2" xmlns="https://prefigure.org">
-<diagram dimensions="(300,300)" margins="5"
+<diagram dimensions="(300,300)" margins="(75,0,75,0)"
          xmlns="https://prefigure.org">
-  <coordinates bbox="(-6,-6,6,6)">
-    <grid-axes coordinates="polar"
+  <coordinates bbox="(-2,-2,2,2)">
+    <grid-axes coordinates="polar" xlabel="x" ylabel="y"
                clear-background="no" spacing-degrees="yes" spacings="((0,1,9),(0,22.5,360))"
-               hticks="(-5,1,5)" vticks="(-5,1,5)"
+               hticks="(-1,1,1)" vticks="(-1,1,1)"
           />
   </coordinates>
 </diagram>
@@ -134,8 +154,41 @@
 
 
 </exercise>
-    </page>
 
+
+</page>
+
+<page>
+<exercise>
+<introduction>
+<p>
+Now consider the family of polar graphs
+<me>
+  r = 1 + a\cos(\theta),
+</me>
+where <m>a</m> is some variable greater than zero. These are called <term>cardioids</term>, because they kind of look like hearts when they're graphed.
+</p>  
+</introduction>
+<task workspace="3in">
+  <statement>
+    <p>
+      Sketch graphs of these with <m>r</m> as a function of <m>\theta</m> with <m>a=0.5, 1, 1.5</m>. 
+    </p>
+  </statement>
+</task>
+<task workspace="3in">
+  <statement>
+    <p>
+      Use the graphs you sketched above to explain why the polar graphs have no inner loop if <m>a&lt; 1</m> and have inner loops when <m>a &gt; 0</m>. Also, check that this is true with Desmos of any other technology of your choice.
+    </p>
+  </statement>
+</task>
+
+</exercise>
+
+
+
+</page>
 
 
 
