@@ -386,6 +386,60 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "",
   "body": "  Use the identities to show that Then let to derive the double angle identity    "
+},
+{
+  "id": "Week10",
+  "level": "1",
+  "url": "Week10.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Math 121 Week 10 Activity",
+  "body": " Math 121 Week 10 Activity   In this activity we will do the following:    Translate between rectangular graphs in the -plane to polar graphs in the -plane.    See how some cool polar graphs are generated.      Please note, some of these questions have answers that will require you to write complete sentences in order to help you make better sense of the math you're learning. This may seem difficult at first.  For all the graphs in this activity, please graph precisely. If you don't, your graphs will not resemble what they're supposed to look like.         Consider the polar equation . We wish to graph this equation by first graphing this sinusoidal function in the -plane.     Graph as a function of in the axes provided for . Clearly indicate the the maxes, mins, and midline in your graph.      Points with maximum :       Points with minimum :       Midline:                       Now use the previous part to graph the equation in polar coordinates. Be sure to draw in the polar curve corresponding to the midline and show the points with maximum and minimum -values that you found above.                   Consider the polar equation . To graph this equation, we follow the example of the last problem by first graphing this sinusoidal function in the -plane.     Graph as a function of in the axes provided for . Clearly indicate the the maxes, mins, and midline in your graph.      Points with maximum :       Points with minimum :       Midline:                       Now use the previous part to graph the equation in polar coordinates. Be sure to draw in the polar curve (or point) corresponding to the midline and show the points with maximum and minimum -values that you found above.                  Now consider the family of polar graphs where is some number greater than zero. These are called cardioids , because they kind of look like hearts when they're graphed.     Sketch graphs of these with as a function of with .      Use the graphs you sketched above to explain why the polar graphs have no inner loop if and have inner loops when . Also, check that this is true with Desmos of any other technology of your choice.       (Hard Question) One of the differences between problems 1 and 2 in this activity is that for the first problem we needed to graph from to to get the entire curve, whereas on the second we only needed to go to to get the whole polar curve. Why is that?     "
+},
+{
+  "id": "Week10-2",
+  "level": "2",
+  "url": "Week10.html#Week10-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": " In this activity we will do the following:    Translate between rectangular graphs in the -plane to polar graphs in the -plane.    See how some cool polar graphs are generated.    "
+},
+{
+  "id": "Week10-5-1",
+  "level": "2",
+  "url": "Week10.html#Week10-5-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "   Consider the polar equation . We wish to graph this equation by first graphing this sinusoidal function in the -plane.     Graph as a function of in the axes provided for . Clearly indicate the the maxes, mins, and midline in your graph.      Points with maximum :       Points with minimum :       Midline:                       Now use the previous part to graph the equation in polar coordinates. Be sure to draw in the polar curve corresponding to the midline and show the points with maximum and minimum -values that you found above.             "
+},
+{
+  "id": "Week10-6-1",
+  "level": "2",
+  "url": "Week10.html#Week10-6-1",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "   Consider the polar equation . To graph this equation, we follow the example of the last problem by first graphing this sinusoidal function in the -plane.     Graph as a function of in the axes provided for . Clearly indicate the the maxes, mins, and midline in your graph.      Points with maximum :       Points with minimum :       Midline:                       Now use the previous part to graph the equation in polar coordinates. Be sure to draw in the polar curve (or point) corresponding to the midline and show the points with maximum and minimum -values that you found above.             "
+},
+{
+  "id": "Week10-7-1",
+  "level": "2",
+  "url": "Week10.html#Week10-7-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Now consider the family of polar graphs where is some number greater than zero. These are called cardioids , because they kind of look like hearts when they're graphed.     Sketch graphs of these with as a function of with .      Use the graphs you sketched above to explain why the polar graphs have no inner loop if and have inner loops when . Also, check that this is true with Desmos of any other technology of your choice.    "
+},
+{
+  "id": "Week10-7-2",
+  "level": "2",
+  "url": "Week10.html#Week10-7-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  (Hard Question) One of the differences between problems 1 and 2 in this activity is that for the first problem we needed to graph from to to get the entire curve, whereas on the second we only needed to go to to get the whole polar curve. Why is that?   "
 }
 ]
 
