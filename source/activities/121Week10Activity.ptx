@@ -86,7 +86,7 @@
   <coordinates bbox="(-pi/8,-.5,17*pi/8,4)">
   <grid-axes xlabel="\theta" ylabel="r"
     h-pi-format="yes" 
-    spacings="((0,pi/8,17*pi/8),(-5,.5,5))"
+    spacings="((0,pi/8,17*pi/8),(-5,.5,5))" 
   />
   </coordinates>
 </diagram>
@@ -110,7 +110,7 @@
   <coordinates bbox="(-4,-4,4,4)">
     <grid-axes coordinates="polar" xlabel="x" ylabel="y"
                clear-background="no" spacing-degrees="yes" spacings="((0,1,9),(0,22.5,360))"
-               hticks="(-4,1,4)" vticks="(-4,1,4)"
+               hticks="(-4,1,4)" vticks="(-4,1,4)" 
           />
   </coordinates>
 </diagram>
@@ -178,7 +178,7 @@
   <coordinates bbox="(-1,-2,3.5,2)">
   <grid-axes xlabel="\theta" ylabel="r"
     h-pi-format="yes" 
-    spacings="((-pi/3,pi/6,7*pi/6),(-5,.5,5))"
+    spacings="((-pi/3,pi/6,7*pi/6),(-5,.5,5))" 
   />
   </coordinates>
 </diagram>
@@ -206,7 +206,7 @@
   <coordinates bbox="(-1.2,-1.2,1.2,1.2)">
     <grid-axes coordinates="polar" xlabel="x" ylabel="y"
                clear-background="no" spacing-degrees="yes" spacings="((0,.5,1.5*2^(0.5)),(0,30,360))"
-               hticks="(-1,1,1)" vticks="(-1,1,1)"
+               hticks="(-1,1,1)" vticks="(-1,1,1)" 
           />
 
   </coordinates>

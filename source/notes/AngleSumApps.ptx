@@ -169,7 +169,7 @@
         </me>
         The factor <m>\sin(2.05t)</m> has a very short period while <m>\cos(0.05t)</m> has a very long period. The result is a graph that looks like the following:
             <image>
-    <prefigure label = "angle-sum-triangle" xmlns="https://prefigure.org">
+    <prefigure label = "beats-graph" xmlns="https://prefigure.org">
 <diagram dimensions="(1000,1000)" margins="5">
   <definition>f(x)=sin(2*x)+sin(2.1*x)</definition>
   <coordinates bbox="(-100,-4,100,4)">
