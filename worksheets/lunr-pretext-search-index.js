@@ -440,6 +440,60 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "",
   "body": "  (Hard Question) One of the differences between problems 1 and 2 in this activity is that for the first problem we needed to graph from to to get the entire curve, whereas on the second we only needed to go to to get the whole polar curve. Why is that?   "
+},
+{
+  "id": "Week11",
+  "level": "1",
+  "url": "Week11.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Math 121 Week 11 Activity",
+  "body": " Math 121 Week 11 Activity   This activity has the following objectives:      Look at the relationship between the domain and range of a function and its inverse.    Find the relationship between the graph of a function and its inverse.    Restrict the domain of a function so that its inverse exists on the given domain.      Please note, some of these questions have answers that will require you to write complete sentences in order to help you make better sense of the math you're learning. This may seem difficult at first.      Consider the functions and .     By checking that and , show that .      Find the domain and range of both and . Write your answers using inequalities with the appropriate variables. What do you notice?         Observe that if a function has an inverse function , then is on the graph of if and only if is on the graph of . Use this fact to pair each graph with the graph of its inverse function.      f(x,y)=x-y^3     A         f(x)=1\/(x-1)     B           f(x)=1\/x+1     C         f(x,y)=y-e^x+2     D           f(x,y)=x-e^y+2     E         f(x,y)=y-x^3     F             Consider the function whose entire graph is shown below:     f(x)=(x+2)^2-1  g(x)=0.4*x+3             Find the largest possible domain on which is invertible (has an inverse function ).      Sketch a graph of in the axes provided, assuming the resztricted domain from part (a).                  A function is called an involution if . Consider the graph of shown below.     f(x)=1\/x             Use the graph of and your knowledge of the graphs of inverse functions to explain why .   You should do this without a formula; reason with the graph.       Use the graph of , your knowledge of the graphs of inverse functions, and how graphical transformations work to explain why is an involution for any value of .      "
+},
+{
+  "id": "Week11-3",
+  "level": "2",
+  "url": "Week11.html#Week11-3",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Look at the relationship between the domain and range of a function and its inverse.    Find the relationship between the graph of a function and its inverse.    Restrict the domain of a function so that its inverse exists on the given domain.    "
+},
+{
+  "id": "Week11-5-1",
+  "level": "2",
+  "url": "Week11.html#Week11-5-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Consider the functions and .     By checking that and , show that .      Find the domain and range of both and . Write your answers using inequalities with the appropriate variables. What do you notice?    "
+},
+{
+  "id": "Week11-6-1",
+  "level": "2",
+  "url": "Week11.html#Week11-6-1",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Observe that if a function has an inverse function , then is on the graph of if and only if is on the graph of . Use this fact to pair each graph with the graph of its inverse function.      f(x,y)=x-y^3     A         f(x)=1\/(x-1)     B           f(x)=1\/x+1     C         f(x,y)=y-e^x+2     D           f(x,y)=x-e^y+2     E         f(x,y)=y-x^3     F        "
+},
+{
+  "id": "Week11-7-1",
+  "level": "2",
+  "url": "Week11.html#Week11-7-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Consider the function whose entire graph is shown below:     f(x)=(x+2)^2-1  g(x)=0.4*x+3             Find the largest possible domain on which is invertible (has an inverse function ).      Sketch a graph of in the axes provided, assuming the resztricted domain from part (a).             "
+},
+{
+  "id": "Week11-8-1",
+  "level": "2",
+  "url": "Week11.html#Week11-8-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  A function is called an involution if . Consider the graph of shown below.     f(x)=1\/x             Use the graph of and your knowledge of the graphs of inverse functions to explain why .   You should do this without a formula; reason with the graph.       Use the graph of , your knowledge of the graphs of inverse functions, and how graphical transformations work to explain why is an involution for any value of .    "
 }
 ]
 

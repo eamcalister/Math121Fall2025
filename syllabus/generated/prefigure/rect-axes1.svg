@@ -8,7 +8,7 @@
     </clipPath>
   </defs>
   <g id="grid-axes">
-    <g id="grid" stroke="black" stroke-width="1">
+    <g id="grid" stroke="#ccc" stroke-width="1">
       <line id="line-0" x1="102.8" y1="305.0" x2="102.8" y2="5.0"/>
       <line id="line-1" x1="130.6" y1="305.0" x2="130.6" y2="5.0"/>
       <line id="line-2" x1="158.3" y1="305.0" x2="158.3" y2="5.0"/>
