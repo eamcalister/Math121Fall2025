@@ -191,7 +191,7 @@
   <definition>f(x)=(x+2)^2-1</definition>
   <definition>g(x)=0.4*x+3</definition>
   <coordinates bbox="(-7,-3,7,7)">
-    <grid-axes xlabel="x" ylabel="y"  spacings="((-7,1,7),(-7,1,7))" hlabels="(-6,2,6)" vlabels="(-6,2,6)" thickness="2"/>
+    <grid-axes xlabel="x" ylabel="y"  spacings="((-7,1,7),(-7,1,7))" hlabels="(-6,2,6)" vlabels="(-6,2,6)" stroke="black"/>
     <graph at="graph" function="f" domain="[-4,0]"/>
     <graph at="graph" function="g" domain="[0,5]"/>
   </coordinates>
@@ -217,7 +217,7 @@
 <diagram dimensions="(350,250)" margins="(100,5,100,5)">
 
   <coordinates bbox="(-7,-3,7,7)">
-    <grid-axes xlabel="y" ylabel="x"  spacings="((-7,1,7),(-7,1,7))" hlabels="(-6,2,6)" vlabels="(-6,2,6)" thickness="2"/>
+    <grid-axes xlabel="y" ylabel="x"  spacings="((-7,1,7),(-7,1,7))" hlabels="(-6,2,6)" vlabels="(-6,2,6)" stroke="black"/>
 
   </coordinates>
 
@@ -240,7 +240,7 @@
 <diagram dimensions="(300,300)" margins="(100,5,100,5)">
   <definition>f(x)=1/x</definition>
   <coordinates bbox="(-7,-7,7,7)">
-    <grid-axes xlabel="x" ylabel="y"  spacings="((-7,1,7),(-7,1,7))" hlabels="(-6,2,6)" vlabels="(-6,2,6)" thickness="2"/>
+    <grid-axes xlabel="x" ylabel="y"  spacings="((-7,1,7),(-7,1,7))" hlabels="(-6,2,6)" vlabels="(-6,2,6)" stroke="black"/>
     <graph at="graph" function="f" domain="[-8,0]"/>
     <graph at="graph" function="f" domain="[0,8]"/>
   </coordinates>
