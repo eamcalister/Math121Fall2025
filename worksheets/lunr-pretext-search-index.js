@@ -494,6 +494,60 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "",
   "body": "  A function is called an involution if . Consider the graph of shown below.     f(x)=1\/x             Use the graph of and your knowledge of the graphs of inverse functions to explain why is an involution.   You should do this without a formula; reason with the graph.       Use the graph of , your knowledge of the graphs of inverse functions, and how graphical transformations work to explain why is an involution for any value of .    "
+},
+{
+  "id": "Week13",
+  "level": "1",
+  "url": "Week13.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Math 121 Week 13 Activity (draft)",
+  "body": " Math 121 Week 13 Activity (draft)   This activity has the following objectives:      Learn what a limit is    Find limits from graphs and equations      Please note, some of these questions have answers that will require you to write complete sentences in order to help you make better sense of the math you're learning. This may seem difficult at first.  In this project (and often in calculus), we will work with limits.      We have seen limits in the context of long-run behavior. We saw that was the value approached as got very large. More formally, this means that if for any small positive number, we can find a large number so that for all never gets more than away from      Let's demonstrate this with the function whose graph is given in the Desmos interactive below. What does it look like is?         For find a value of so that is within of for all       Now let and find a value of as above.         Similarly, we can take limits as approaches a finite value, In this case, instead of taking larger values of to get close to we take values closer to Specifically,   Definition: If we are given a function and a number (which could be ), we say that if we can make as close to as we would like by taking values of sufficiently close to, but not equal to, (Note that can also be ) In other words, means that as is the value approaches as approaches irrespective of the value of at   One way to determine is to plug in values really close (but not equal) to and determining if the values approach a common value.  For each of the following, use your calculator to find and to estimate                       Another way to determine limits is graphically. Let     Sketch the graph of below:              Find for       What happens at ? The function is undefined, but is there a value of that satisfies ?         Consider the function     Draw the graph of Label the and intercepts as well as any holes.             Now, for compute      "
+},
+{
+  "id": "Week13-3",
+  "level": "2",
+  "url": "Week13.html#Week13-3",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Learn what a limit is    Find limits from graphs and equations    "
+},
+{
+  "id": "Week13-5-1",
+  "level": "2",
+  "url": "Week13.html#Week13-5-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  We have seen limits in the context of long-run behavior. We saw that was the value approached as got very large. More formally, this means that if for any small positive number, we can find a large number so that for all never gets more than away from      Let's demonstrate this with the function whose graph is given in the Desmos interactive below. What does it look like is?         For find a value of so that is within of for all       Now let and find a value of as above.    "
+},
+{
+  "id": "Week13-6-1",
+  "level": "2",
+  "url": "Week13.html#Week13-6-1",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Similarly, we can take limits as approaches a finite value, In this case, instead of taking larger values of to get close to we take values closer to Specifically,   Definition: If we are given a function and a number (which could be ), we say that if we can make as close to as we would like by taking values of sufficiently close to, but not equal to, (Note that can also be ) In other words, means that as is the value approaches as approaches irrespective of the value of at   One way to determine is to plug in values really close (but not equal) to and determining if the values approach a common value.  For each of the following, use your calculator to find and to estimate                  "
+},
+{
+  "id": "Week13-7-1",
+  "level": "2",
+  "url": "Week13.html#Week13-7-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Another way to determine limits is graphically. Let     Sketch the graph of below:              Find for       What happens at ? The function is undefined, but is there a value of that satisfies ?    "
+},
+{
+  "id": "Week13-8-1",
+  "level": "2",
+  "url": "Week13.html#Week13-8-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Consider the function     Draw the graph of Label the and intercepts as well as any holes.             Now, for compute    "
 }
 ]
 
