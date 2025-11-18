@@ -502,7 +502,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Math 121 Week 13 Activity (draft)",
-  "body": " Math 121 Week 13 Activity (draft)   This activity has the following objectives:      Learn what a limit is    Find limits from graphs and equations      Please note, some of these questions have answers that will require you to write complete sentences in order to help you make better sense of the math you're learning. This may seem difficult at first.  In this project (and often in calculus), we will work with limits.      We have seen limits in the context of long-run behavior. We saw that was the value approached as got very large. More formally, this means that if for any small positive number, we can find a large number so that for all never gets more than away from      Let's demonstrate this with the function whose graph is given in the Desmos interactive below. What does it look like is?         For find a value of so that is within of for all       Now let and find a value of as above.         Similarly, we can take limits as approaches a finite value, In this case, instead of taking larger values of to get close to we take values closer to Specifically,   Definition: If we are given a function and a number (which could be ), we say that if we can make as close to as we would like by taking values of sufficiently close to, but not equal to, (Note that can also be ) In other words, means that as is the value approaches as approaches irrespective of the value of at   One way to determine is to plug in values really close (but not equal) to and determining if the values approach a common value.  For each of the following, use your calculator to find and to estimate                       Another way to determine limits is graphically. Let     Sketch the graph of below:              Find for       What happens at ? The function is undefined, but is there a value of that satisfies ?         Consider the function     Draw the graph of Label the and intercepts as well as any holes.             Now, for compute      "
+  "body": " Math 121 Week 13 Activity (draft)   This activity has the following objectives:      Learn what a limit is    Find limits from graphs and equations      Please note, some of these questions have answers that will require you to write complete sentences in order to help you make better sense of the math you're learning. This may seem difficult at first.  In this project (and often in calculus), we will work with limits.      We have seen limits in the context of long-run behavior. We saw that was the value approached as got very large. More formally, this means that if, for any small positive number, we can find a large number so that for all never gets more than away from      Let's demonstrate this with the function whose graph is given in the Desmos interactive below. What does it look like is?         For find a value of so that is within of for all       Now let and find a value of as above.         Similarly, we can take limits as approaches a finite value, In this case, instead of taking larger values of to get close to we take values closer to Specifically,   Definition: If we are given a function and a number we say that if we can make as close to as we would like by taking values of sufficiently close to, but not equal to, i.e. is the value approaches as approaches (but does not equal)      Using the Desmos graph from the previous problem, find and use these to estimate       Next, find and use these to estimate       Now, find Does this change your answer to the previous part? Why or why not?         Now, consider the function     Draw the graph of Label the and intercepts as well as any holes. Use Desmos to check your answer.             What are and     What values of satisfy     Using your graph, estimate for and     Check your answers to the previous part by evaluating at -values near and Write down these values     "
 },
 {
   "id": "Week13-3",
@@ -520,7 +520,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  We have seen limits in the context of long-run behavior. We saw that was the value approached as got very large. More formally, this means that if for any small positive number, we can find a large number so that for all never gets more than away from      Let's demonstrate this with the function whose graph is given in the Desmos interactive below. What does it look like is?         For find a value of so that is within of for all       Now let and find a value of as above.    "
+  "body": "  We have seen limits in the context of long-run behavior. We saw that was the value approached as got very large. More formally, this means that if, for any small positive number, we can find a large number so that for all never gets more than away from      Let's demonstrate this with the function whose graph is given in the Desmos interactive below. What does it look like is?         For find a value of so that is within of for all       Now let and find a value of as above.    "
 },
 {
   "id": "Week13-6-1",
@@ -529,7 +529,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Similarly, we can take limits as approaches a finite value, In this case, instead of taking larger values of to get close to we take values closer to Specifically,   Definition: If we are given a function and a number (which could be ), we say that if we can make as close to as we would like by taking values of sufficiently close to, but not equal to, (Note that can also be ) In other words, means that as is the value approaches as approaches irrespective of the value of at   One way to determine is to plug in values really close (but not equal) to and determining if the values approach a common value.  For each of the following, use your calculator to find and to estimate                  "
+  "body": "  Similarly, we can take limits as approaches a finite value, In this case, instead of taking larger values of to get close to we take values closer to Specifically,   Definition: If we are given a function and a number we say that if we can make as close to as we would like by taking values of sufficiently close to, but not equal to, i.e. is the value approaches as approaches (but does not equal)      Using the Desmos graph from the previous problem, find and use these to estimate       Next, find and use these to estimate       Now, find Does this change your answer to the previous part? Why or why not?    "
 },
 {
   "id": "Week13-7-1",
@@ -538,16 +538,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  Another way to determine limits is graphically. Let     Sketch the graph of below:              Find for       What happens at ? The function is undefined, but is there a value of that satisfies ?    "
-},
-{
-  "id": "Week13-8-1",
-  "level": "2",
-  "url": "Week13.html#Week13-8-1",
-  "type": "Worksheet Exercise",
-  "number": "4",
-  "title": "",
-  "body": "  Consider the function     Draw the graph of Label the and intercepts as well as any holes.             Now, for compute    "
+  "body": "  Now, consider the function     Draw the graph of Label the and intercepts as well as any holes. Use Desmos to check your answer.             What are and     What values of satisfy     Using your graph, estimate for and     Check your answers to the previous part by evaluating at -values near and Write down these values   "
 }
 ]
 
