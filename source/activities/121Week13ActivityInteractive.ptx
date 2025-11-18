@@ -120,12 +120,12 @@ Now, consider the function <m> g(x) = \frac{(x-3)(x^2-4)}{x^2-x-6}.</m>
 </task>
 <task workspace = "3in">
 <p>
- What are <m> \lim_{x \to \infty} g(x) </m> and <m> \lim_{x \to - \infty} g(x)? </m>
+ What are <m> \displaystyle \lim_{x \to \infty} g(x) </m> and <m> \displaystyle \lim_{x \to - \infty} g(x)? </m>
 </p>
 </task>
 <task workspace = "3in">
 <p>
- What values of <m> a </m> satisfy <m> \lim_{x \to a} g(x) = 0? </m>
+ What values of <m> a </m> satisfy <m> \displaystyle \lim_{x \to a} g(x) = 0? </m>
 </p>
 </task>
 <task workspace = "3in">
