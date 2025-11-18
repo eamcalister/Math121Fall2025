@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--uncomment <pretext> and <article> tags at the beginning and end for standalone pdf generation-->
-<pretext>
-<article>
+<!--pretext-->
+<!--article-->
     <worksheet margin="1in" bottom="1.25cm" xml:id="Week13" >
-            <title>Math 121 Week 13 Activity</title>
+            <title>Math 121 Week 13 Activity (draft)</title>
 <introduction>
     <p>
         This activity has the following objectives:
@@ -44,7 +44,7 @@ We have seen limits in the context of long-run behavior. We saw that <m> \lim_{x
       Let's demonstrate this with the function <m> f(x) </m> whose graph is given in the Desmos interactive below. What does it look like <m> L = \lim_{x \to \infty} f(x) </m> is?
     </p>
     <figure xml:id="desmos-interactive1">
-      <interactive  xml:id="desmos-rational-limit" desmos="ublproheyo" width="100%" aspect="3:2" />
+      <interactive  xml:id="desmos-rational-limit" desmos="ublproheyo" width="70%" aspect="1:2" />
     </figure>
   </statement>
  </task>
@@ -101,7 +101,7 @@ We have seen limits in the context of long-run behavior. We saw that <m> \lim_{x
 <exercise>
 <introduction>
   <p>
-    Another way to determine limits is graphically. Let <m> f(x) = \frac{(x+2)(x-2))}{x-2}.</m> 
+    Another way to determine limits is graphically. Let <m> f(x) = \frac{(x+2)(x-2)}{x-2}.</m> 
   </p> 
  
 </introduction>
@@ -170,5 +170,5 @@ Consider the function <m> g(x) = \frac{(x-3)(x^2-4)}{x^2-x-6}.</m>
 
 
 </worksheet>
-</article>
-</pretext>
+<!--/article-->
+<!--/pretext-->
