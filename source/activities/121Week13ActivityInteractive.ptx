@@ -3,7 +3,7 @@
 <!--pretext-->
 <!--article-->
     <worksheet margin="1in" bottom="1.25cm" xml:id="Week13" >
-            <title>Math 121 Week 13 Activity (draft)</title>
+            <title>Math 121 Week 13 Activity</title>
 <introduction>
     <p>
         This activity has the following objectives:
@@ -41,11 +41,11 @@ We have seen limits in the context of long-run behavior. We saw that <m> \displa
  <task workspace="1in">
   <statement>
     <p>
-      Let's demonstrate this with the function <m> f(x) </m> whose graph is given in the Desmos interactive below. What does it look like <m> L = \lim_{x \to \infty} f(x) </m> is?
+      Let's demonstrate this with the function <m> f(x) </m> whose graph is given in the Desmos interactive below. What does it look like <m> \displaystyle L = \lim_{x \to \infty} f(x) </m> is?
     </p>
-    <figure xml:id="desmos-interactive1">
-      <interactive  xml:id="desmos-rational-limit" desmos="ublproheyo" width="70%" aspect="1:2" />
-    </figure>
+
+      <interactive  xml:id="desmos-rational-limit" desmos="ublproheyo" width="70%" aspect="3:5" />
+
   </statement>
  </task>
  <task workspace="1in">
@@ -70,9 +70,12 @@ We have seen limits in the context of long-run behavior. We saw that <m> \displa
     <p>
       Similarly, we can take limits as <m> x </m> approaches a finite value, <m> a.</m> In this case, instead of taking larger values of <m> x </m> to get close to <m> L ,</m> we take values <em> closer </em> to <m> a .</m> Specifically,
     </p>
-      <p>
-           <em>Definition: </em> If we are given a function <m>f</m> and a number <m> a, </m> we say that <m>\displaystyle \lim_{x \to a} f(x) = L </m> if we can make <m>f(x) </m> as close to <m>L</m> as we would like by taking values of <m> x</m> sufficiently close to, but not equal to, <m> a, </m> i.e. <m> L </m> is the value <m> f(x) </m> approaches as <m> x </m> approaches (but does not equal) <m> a .</m> 
-      </p>
+      <paragraphs>
+        <title>Definition of <m>\lim\limits_{x\to a} f(x)</m></title>
+          <p>
+            If we are given a function <m>f</m> and a number <m> a, </m> we say that <m>\displaystyle \lim_{x \to a} f(x) = L </m> if we can make <m>f(x) </m> as close to <m>L</m> as we would like by taking values of <m> x</m> sufficiently close to, but not equal to, <m> a, </m> i.e. <m> L </m> is the value <m> f(x) </m> approaches as <m> x </m> approaches (but does not equal) <m> a .</m> 
+          </p>
+        </paragraphs>
           </introduction>
   <task workspace = "2in">
     <statement>

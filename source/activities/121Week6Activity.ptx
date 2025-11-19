@@ -72,7 +72,7 @@ Thus, <m> f(x) = x^2 </m> does not have an inverse on the entirety of its domain
             <p>
               Below is the graph of <m> y= \sin(\theta) .</m> We want to find an inverse function <m> \theta = \sin^{-1}(y).</m>
             </p>
-  <figure xml:id="sin_graph">
+  <!--figure xml:id="sin_graph"-->
 <image>
     <prefigure label = "trig" xmlns="https://prefigure.org">
             <diagram dimensions="(200,200)" margins="100,5,100,5">
@@ -86,7 +86,7 @@ Thus, <m> f(x) = x^2 </m> does not have an inverse on the entirety of its domain
 </diagram>
 </prefigure>
 </image>
-</figure>
+<!--/figure-->
         </introduction>
     <task workspace ="3in">
         <statement>
