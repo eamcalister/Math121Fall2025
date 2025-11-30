@@ -41,11 +41,11 @@ We have seen limits in the context of long-run behavior. We saw that <m> \displa
  <task workspace="1in">
   <statement>
     <p>
-      Let's demonstrate this with the function <m> f(x) </m> whose graph is given in the Desmos interactive below. What does it look like <m> \displaystyle L = \lim_{x \to \infty} f(x) </m> is?
+      Let's demonstrate this with the function <m> f(x) </m> whose graph is given in the Geogebra interactive below. What does it look like <m> \displaystyle L = \lim_{x \to \infty} f(x) </m> is?
     </p>
 
-      <interactive  xml:id="desmos-rational-limit" desmos="ublproheyo" width="70%" aspect="3:5" />
-
+      <!--interactive  xml:id="desmos-rational-limit" desmos="ublproheyo" width="70%" aspect="3:5" /-->
+      <interactive geogebra="qs5pjrv8" shift-drag-zoom="yes"  reset-icon="yes" />
   </statement>
  </task>
  <task workspace="1in">
