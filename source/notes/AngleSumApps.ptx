@@ -46,7 +46,7 @@
                     Let <m>f(t) = 3\cos(7t) + 2\sin(7t)</m>. To write in the form <m>f(t) = A\sin(7t + \phi)</m>, we expand the given form using the angle sum identity for sine.
                     <md>
                         <mrow> 3\cos(7t) + 2\sin(7t) \amp = A\sin(7t + \phi)</mrow>
-                        <mrow> \amp = A\cos(7t)\sin(\phi) + A\sin(7t)\cos(\phi) </mrow>.
+                        <mrow> \amp = A\cos(7t)\sin(\phi) + A\sin(7t)\cos(\phi). </mrow>
                     </md>
                     Equating coefficients of <m>\cos(7t)</m> and <m>\sin(7t)</m>, we have
                     <md>
@@ -71,7 +71,7 @@
 
 
         <paragraphs xml:id="phase-shift">
-            <title>Writing and a Single Sine</title>
+            <title>Writing as a Single Sine</title>
             <p>
                 To write, 
                 <me>
@@ -88,7 +88,7 @@
                             Expand <m>A\sin(Bt + \phi)</m> using the angle sum identity for sine.
                     <md>
                         <mrow> c_1\cos(Bt) + c_2\sin(Bt) \amp = A\sin(Bt + \phi)</mrow>
-                        <mrow> \amp = A\cos(Bt)\sin(\phi) + A\sin(Bt)\cos(\phi) </mrow>.
+                        <mrow> \amp = A\cos(Bt)\sin(\phi) + A\sin(Bt)\cos(\phi). </mrow>
                     </md>
                         </p>
                     </li>
