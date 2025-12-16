@@ -45,7 +45,7 @@ We have seen limits in the context of long-run behavior. We saw that <m> \displa
     </p>
 
       <!--interactive  xml:id="desmos-rational-limit" desmos="ublproheyo" width="70%" aspect="3:5" /-->
-      <interactive geogebra="qs5pjrv8" shift-drag-zoom="yes"  reset-icon="yes" />
+      <interactive geogebra="qs5pjrv8" shift-drag-zoom="yes"  reset-icon="yes" aspect="5:3"/>
   </statement>
  </task>
  <task workspace="1in">
@@ -80,7 +80,7 @@ We have seen limits in the context of long-run behavior. We saw that <m> \displa
   <task workspace = "2in">
     <statement>
       <p>
-         Using the Desmos graph from the previous problem, find <m> f(4.8), f(4.9), f(5.2), f(5.1) </m> and use these to estimate <m> \displaystyle \lim_{x \to 5} f(x).</m>
+         Using the Geogebra graph from the previous problem, find <m> f(4.8), f(4.9), f(5.2), f(5.1) </m> and use these to estimate <m> \displaystyle \lim_{x \to 5} f(x).</m>
       </p>
     </statement>
   </task>
@@ -121,22 +121,22 @@ Now, consider the function <m> g(x) = \frac{(x-3)(x^2-4)}{x^2-x-6}.</m>
 </prefigure>
 </image>
 </task>
-<task workspace = "3in">
+<task workspace = "1in">
 <p>
  What are <m> \displaystyle \lim_{x \to \infty} g(x) </m> and <m> \displaystyle \lim_{x \to - \infty} g(x)? </m>
 </p>
 </task>
-<task workspace = "3in">
+<task workspace = "1in">
 <p>
  What values of <m> a </m> satisfy <m> \displaystyle \lim_{x \to a} g(x) = 0? </m>
 </p>
 </task>
-<task workspace = "3in">
+<task workspace = "1in">
 <p>
  Using your graph, estimate <m> \displaystyle \lim_{x \to a} g(x) </m> for <m> a =1 </m> and <m> a = 3</m>
 </p>
 </task>
-<task workspace = "3in">
+<task workspace = "1in">
 <p>
  Check your answers to the previous part by evaluating <m> g </m> at <m> x </m> -values near <m> a=1</m> and <m> a =3.</m> Write down these values
 </p>
